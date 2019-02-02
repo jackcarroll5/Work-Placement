@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControlTemplateTut.Page2"
+             Title="Page 2"
+             ControlTemplate="{StaticResource ThemeMasters}">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand">
+          
+            <Label Text="Admission Page"></Label>
+            <Entry Text="Name"></Entry>
+            <Entry Text="Age"></Entry>
+            <Button Text="Submit" BackgroundColor="Black"></Button>
+        
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

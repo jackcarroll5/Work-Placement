@@ -1,0 +1,1 @@
+C:\Users\Jack\Desktop\TabbedPageTut\TabbedPageTut\TabbedPageTut.UWP\TabbedPageTut.UWP.csproj;x86

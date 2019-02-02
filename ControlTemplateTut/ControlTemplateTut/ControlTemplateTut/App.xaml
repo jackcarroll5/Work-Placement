@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControlTemplateTut.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ControlTemplate x:Key="ThemeMasters">
+                <StackLayout VerticalOptions="CenterAndExpand" BackgroundColor="Aqua">
+                    <Label Text="App" BackgroundColor="Blue"></Label>
+                    <ContentPresenter>
+                    </ContentPresenter>
+                    <Label Text="Terms and Conditions"></Label>
+                    <Label Text="You can't copy code and more content"></Label>
+                </StackLayout>
+            </ControlTemplate>
+
+            <ControlTemplate x:Key="ThemeSub">
+                <StackLayout VerticalOptions="StartAndExpand" BackgroundColor="Yellow">
+                    <BoxView BackgroundColor="Green"></BoxView>
+                    <Label Text="App - Theme Sub" BackgroundColor="Blue"></Label>
+                    <BoxView BackgroundColor="Red"></BoxView>
+                    <ContentPresenter>
+                    </ContentPresenter>
+                    <Label Text="Terms and Conditions for Theme Sub"></Label>
+                    <Label Text="You can't copy code and more content"></Label>
+                </StackLayout>
+            </ControlTemplate>
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>

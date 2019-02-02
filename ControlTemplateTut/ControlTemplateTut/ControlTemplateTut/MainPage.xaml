@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ControlTemplateTut"
+             x:Class="ControlTemplateTut.MainPage"
+             ControlTemplate="{StaticResource ThemeMasters}">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand">
+          
+            <Label Text="Reg Page"></Label>
+            <Entry Text="Name"></Entry>
+            <Entry Text="Age"></Entry>
+            <Entry Text="Address"></Entry>
+            <Entry Text="Country"></Entry>
+            <Button Text="Submit" BackgroundColor="Black"></Button>
+            <Button Text="Theme Masters" Clicked="Button_Clicked"></Button>
+            <Button Text="Theme Sub" Clicked="Button_Clicked_1"></Button>
+          
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

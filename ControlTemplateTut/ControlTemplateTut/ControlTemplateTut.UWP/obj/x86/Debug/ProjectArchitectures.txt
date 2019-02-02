@@ -1,0 +1,1 @@
+C:\Users\Jack\Desktop\ControlTemplateTut\ControlTemplateTut\ControlTemplateTut.UWP\ControlTemplateTut.UWP.csproj;x86

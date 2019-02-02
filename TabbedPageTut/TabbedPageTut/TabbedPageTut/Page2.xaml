@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TabbedPageTut.Page2"
+             Title="Page 1" Icon="">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Label Text="Welcome to the Tabbed Page"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>

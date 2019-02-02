@@ -1,0 +1,14 @@
+C:\Users\Jack\Desktop\TabbedPageTut\TabbedPageTut\TabbedPageTut\bin\Debug\netstandard2.0\TabbedPageTut.deps.json
+C:\Users\Jack\Desktop\TabbedPageTut\TabbedPageTut\TabbedPageTut\bin\Debug\netstandard2.0\TabbedPageTut.dll
+C:\Users\Jack\Desktop\TabbedPageTut\TabbedPageTut\TabbedPageTut\bin\Debug\netstandard2.0\TabbedPageTut.pdb
+C:\Users\Jack\Desktop\TabbedPageTut\TabbedPageTut\TabbedPageTut\obj\Debug\netstandard2.0\TabbedPageTut.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\TabbedPageTut\TabbedPageTut\TabbedPageTut\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jack\Desktop\TabbedPageTut\TabbedPageTut\TabbedPageTut\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jack\Desktop\TabbedPageTut\TabbedPageTut\TabbedPageTut\obj\Debug\netstandard2.0\Page2.xaml.g.cs
+C:\Users\Jack\Desktop\TabbedPageTut\TabbedPageTut\TabbedPageTut\obj\Debug\netstandard2.0\Page3.xaml.g.cs
+C:\Users\Jack\Desktop\TabbedPageTut\TabbedPageTut\TabbedPageTut\obj\Debug\netstandard2.0\TabbedPageTut.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\TabbedPageTut\TabbedPageTut\TabbedPageTut\obj\Debug\netstandard2.0\TabbedPageTut.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\TabbedPageTut\TabbedPageTut\TabbedPageTut\obj\Debug\netstandard2.0\TabbedPageTut.AssemblyInfo.cs
+C:\Users\Jack\Desktop\TabbedPageTut\TabbedPageTut\TabbedPageTut\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jack\Desktop\TabbedPageTut\TabbedPageTut\TabbedPageTut\obj\Debug\netstandard2.0\TabbedPageTut.dll
+C:\Users\Jack\Desktop\TabbedPageTut\TabbedPageTut\TabbedPageTut\obj\Debug\netstandard2.0\TabbedPageTut.pdb
