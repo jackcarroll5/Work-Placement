@@ -1,0 +1,1 @@
+C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp.UWP\SearcherApp.UWP.csproj;x86

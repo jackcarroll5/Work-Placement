@@ -1,0 +1,1 @@
+C:\Users\Jack\Desktop\GesturingApp\GesturingApp\GesturingApp.UWP\GesturingApp.UWP.csproj;x86

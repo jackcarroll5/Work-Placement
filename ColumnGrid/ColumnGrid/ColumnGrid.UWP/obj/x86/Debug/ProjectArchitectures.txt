@@ -1,0 +1,1 @@
+C:\Users\Jack\Desktop\ColumnGrid\ColumnGrid\ColumnGrid.UWP\ColumnGrid.UWP.csproj;x86

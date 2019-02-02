@@ -1,0 +1,13 @@
+C:\Users\Jack\Desktop\XamAppTut\XamAppTut\XamAppTut\bin\Debug\netstandard2.0\XamAppTut.deps.json
+C:\Users\Jack\Desktop\XamAppTut\XamAppTut\XamAppTut\bin\Debug\netstandard2.0\XamAppTut.dll
+C:\Users\Jack\Desktop\XamAppTut\XamAppTut\XamAppTut\bin\Debug\netstandard2.0\XamAppTut.pdb
+C:\Users\Jack\Desktop\XamAppTut\XamAppTut\XamAppTut\obj\Debug\netstandard2.0\XamAppTut.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\XamAppTut\XamAppTut\XamAppTut\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jack\Desktop\XamAppTut\XamAppTut\XamAppTut\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jack\Desktop\XamAppTut\XamAppTut\XamAppTut\obj\Debug\netstandard2.0\XamAppTut.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\XamAppTut\XamAppTut\XamAppTut\obj\Debug\netstandard2.0\XamAppTut.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\XamAppTut\XamAppTut\XamAppTut\obj\Debug\netstandard2.0\XamAppTut.AssemblyInfo.cs
+C:\Users\Jack\Desktop\XamAppTut\XamAppTut\XamAppTut\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jack\Desktop\XamAppTut\XamAppTut\XamAppTut\obj\Debug\netstandard2.0\XamAppTut.dll
+C:\Users\Jack\Desktop\XamAppTut\XamAppTut\XamAppTut\obj\Debug\netstandard2.0\XamAppTut.pdb
+C:\Users\Jack\Desktop\XamAppTut\XamAppTut\XamAppTut\obj\Debug\netstandard2.0\Page1.xaml.g.cs

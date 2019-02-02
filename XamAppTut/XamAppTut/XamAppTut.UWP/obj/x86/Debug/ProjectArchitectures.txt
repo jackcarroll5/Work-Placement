@@ -1,0 +1,1 @@
+C:\Users\Jack\Desktop\XamAppTut\XamAppTut\XamAppTut.UWP\XamAppTut.UWP.csproj;x86

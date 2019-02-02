@@ -1,0 +1,1 @@
+C:\Users\Jack\Desktop\ListApp\ListApp\ListApp.UWP\ListApp.UWP.csproj;x86

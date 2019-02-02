@@ -1,0 +1,13 @@
+C:\Users\Jack\Desktop\ListApp\ListApp\ListApp\bin\Debug\netstandard2.0\ListApp.deps.json
+C:\Users\Jack\Desktop\ListApp\ListApp\ListApp\bin\Debug\netstandard2.0\ListApp.dll
+C:\Users\Jack\Desktop\ListApp\ListApp\ListApp\bin\Debug\netstandard2.0\ListApp.pdb
+C:\Users\Jack\Desktop\ListApp\ListApp\ListApp\obj\Debug\netstandard2.0\ListApp.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\ListApp\ListApp\ListApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jack\Desktop\ListApp\ListApp\ListApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jack\Desktop\ListApp\ListApp\ListApp\obj\Debug\netstandard2.0\ListApp.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\ListApp\ListApp\ListApp\obj\Debug\netstandard2.0\ListApp.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\ListApp\ListApp\ListApp\obj\Debug\netstandard2.0\ListApp.AssemblyInfo.cs
+C:\Users\Jack\Desktop\ListApp\ListApp\ListApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jack\Desktop\ListApp\ListApp\ListApp\obj\Debug\netstandard2.0\ListApp.dll
+C:\Users\Jack\Desktop\ListApp\ListApp\ListApp\obj\Debug\netstandard2.0\ListApp.pdb
+C:\Users\Jack\Desktop\ListApp\ListApp\ListApp\obj\Debug\netstandard2.0\MenuPage.xaml.g.cs
