@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SliderApp"
+             x:Class="SliderApp.MainPage"
+             BackgroundColor="Turquoise">
+
+    <StackLayout>
+    
+    <Slider x:Name="SliderMain"
+        Minimum="0"
+        Maximum="100"/>
+
+    <Label x:Name="LabelMain"
+           Text="{Binding Value, Source={x:Reference SliderMain}}"
+           FontSize="100"
+           HorizontalOptions="Center"/>
+
+    </StackLayout>
+
+</ContentPage>

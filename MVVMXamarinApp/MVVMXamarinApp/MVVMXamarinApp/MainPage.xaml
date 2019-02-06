@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MVVMXamarinApp"
+             x:Class="MVVMXamarinApp.MainPage"
+             BackgroundColor="SeaGreen"
+             xmlns:converter="clr-namespace:MVVMXamarinApp.Converters;assembly=MVVMXamarinApp">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <converter:TextToColourConverter x:Key="TextToColourConverter"/>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout VerticalOptions="Center">
+        <Label Text="Task Title"/>
+        <Entry Text="{Binding TaskModel.Title, Mode=TwoWay}"/>
+
+        <Label Text="Task Duration"/>
+        <Entry Text="{Binding TaskModel.DurationTime, Mode=TwoWay}"/>
+
+        <Button Text="Save Task"
+                Command="{Binding SaveCommand}"/>
+
+        <Label Text="{Binding Message}"
+               TextColor="{Binding Message, Converter={StaticResource TextToColourConverter}}"/>
+
+    </StackLayout>
+
+</ContentPage>
