@@ -1,0 +1,15 @@
+C:\Users\Jack\Desktop\NavPageTut\NavPageTut\NavPageTut\bin\Debug\netstandard2.0\NavPageTut.deps.json
+C:\Users\Jack\Desktop\NavPageTut\NavPageTut\NavPageTut\bin\Debug\netstandard2.0\NavPageTut.dll
+C:\Users\Jack\Desktop\NavPageTut\NavPageTut\NavPageTut\bin\Debug\netstandard2.0\NavPageTut.pdb
+C:\Users\Jack\Desktop\NavPageTut\NavPageTut\NavPageTut\obj\Debug\netstandard2.0\NavPageTut.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\NavPageTut\NavPageTut\NavPageTut\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jack\Desktop\NavPageTut\NavPageTut\NavPageTut\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jack\Desktop\NavPageTut\NavPageTut\NavPageTut\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+C:\Users\Jack\Desktop\NavPageTut\NavPageTut\NavPageTut\obj\Debug\netstandard2.0\Page2.xaml.g.cs
+C:\Users\Jack\Desktop\NavPageTut\NavPageTut\NavPageTut\obj\Debug\netstandard2.0\Page3.xaml.g.cs
+C:\Users\Jack\Desktop\NavPageTut\NavPageTut\NavPageTut\obj\Debug\netstandard2.0\NavPageTut.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\NavPageTut\NavPageTut\NavPageTut\obj\Debug\netstandard2.0\NavPageTut.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\NavPageTut\NavPageTut\NavPageTut\obj\Debug\netstandard2.0\NavPageTut.AssemblyInfo.cs
+C:\Users\Jack\Desktop\NavPageTut\NavPageTut\NavPageTut\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jack\Desktop\NavPageTut\NavPageTut\NavPageTut\obj\Debug\netstandard2.0\NavPageTut.dll
+C:\Users\Jack\Desktop\NavPageTut\NavPageTut\NavPageTut\obj\Debug\netstandard2.0\NavPageTut.pdb

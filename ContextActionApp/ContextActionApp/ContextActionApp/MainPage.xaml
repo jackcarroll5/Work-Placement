@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ContextActionApp"
+             x:Class="ContextActionApp.MainPage"
+             BackgroundColor="White">
+
+    <ListView x:Name="ListViewMain"
+              HasUnevenRows="True">
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+
+                    <ViewCell.ContextActions>
+                        <MenuItem Text="Add"
+                                  Clicked="Add_OnClicked"/>
+
+                        <MenuItem Text="Edit"
+                                  Clicked="Edit_OnClicked"/>
+
+                        <MenuItem Text="Remove"
+                                  Clicked="Remove_OnClicked"/>
+
+
+                    </ViewCell.ContextActions>
+                    
+                    <Grid Padding="10,20">
+                        <Label Text="{Binding .}"
+                               FontSize="30"
+                               TextColor="Blue"/>
+                    </Grid>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+</ContentPage>

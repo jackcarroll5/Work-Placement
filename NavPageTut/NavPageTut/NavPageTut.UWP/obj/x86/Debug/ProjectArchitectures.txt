@@ -1,0 +1,1 @@
+C:\Users\Jack\Desktop\NavPageTut\NavPageTut\NavPageTut.UWP\NavPageTut.UWP.csproj;x86

@@ -1,0 +1,12 @@
+C:\Users\Jack\Desktop\SearcherColourApp\SearcherColourApp\SearcherColourApp\bin\Debug\netstandard2.0\SearcherColourApp.deps.json
+C:\Users\Jack\Desktop\SearcherColourApp\SearcherColourApp\SearcherColourApp\bin\Debug\netstandard2.0\SearcherColourApp.dll
+C:\Users\Jack\Desktop\SearcherColourApp\SearcherColourApp\SearcherColourApp\bin\Debug\netstandard2.0\SearcherColourApp.pdb
+C:\Users\Jack\Desktop\SearcherColourApp\SearcherColourApp\SearcherColourApp\obj\Debug\netstandard2.0\SearcherColourApp.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\SearcherColourApp\SearcherColourApp\SearcherColourApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jack\Desktop\SearcherColourApp\SearcherColourApp\SearcherColourApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jack\Desktop\SearcherColourApp\SearcherColourApp\SearcherColourApp\obj\Debug\netstandard2.0\SearcherColourApp.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\SearcherColourApp\SearcherColourApp\SearcherColourApp\obj\Debug\netstandard2.0\SearcherColourApp.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\SearcherColourApp\SearcherColourApp\SearcherColourApp\obj\Debug\netstandard2.0\SearcherColourApp.AssemblyInfo.cs
+C:\Users\Jack\Desktop\SearcherColourApp\SearcherColourApp\SearcherColourApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jack\Desktop\SearcherColourApp\SearcherColourApp\SearcherColourApp\obj\Debug\netstandard2.0\SearcherColourApp.dll
+C:\Users\Jack\Desktop\SearcherColourApp\SearcherColourApp\SearcherColourApp\obj\Debug\netstandard2.0\SearcherColourApp.pdb

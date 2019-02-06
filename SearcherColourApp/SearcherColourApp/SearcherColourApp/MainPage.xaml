@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SearcherColourApp"
+             x:Class="SearcherColourApp.MainPage">
+
+    <StackLayout Orientation="Vertical">
+    
+    <SearchBar x:Name="ColoursSearchBar"
+               SearchButtonPressed="ColoursSearchBar_SearchButtonPressed"
+               TextChanged="ColoursSearchBar_TextChanged"
+               />
+
+        <Grid>
+            <ListView x:Name="ColourListView"/>
+            <ListView x:Name="SuggestionsColourListView"
+                      ItemTapped="SuggestionsColourListView_ItemTapped"
+                      BackgroundColor="RoyalBlue"/>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

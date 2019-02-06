@@ -1,0 +1,1 @@
+C:\Users\Jack\Desktop\SearcherColourApp\SearcherColourApp\SearcherColourApp.UWP\SearcherColourApp.UWP.csproj;x86
