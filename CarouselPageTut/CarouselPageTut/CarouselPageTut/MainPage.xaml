@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CarouselPageTut"
+             x:Class="CarouselPageTut.MainPage">
+
+
+    <local:Page1>
+    </local:Page1>
+    <local:Page2>
+    </local:Page2>
+    
+    
+    <ContentPage BackgroundColor="Green">
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="Page 1">
+                </Label>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="Yellow">
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="Page 2">
+                </Label>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="Gray">
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="Page 3">
+                </Label>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+</CarouselPage>

@@ -1,0 +1,12 @@
+C:\Users\Jack\Desktop\XsAndOs\XsAndOs\XsAndOs\bin\Debug\netstandard2.0\XsAndOs.deps.json
+C:\Users\Jack\Desktop\XsAndOs\XsAndOs\XsAndOs\bin\Debug\netstandard2.0\XsAndOs.dll
+C:\Users\Jack\Desktop\XsAndOs\XsAndOs\XsAndOs\bin\Debug\netstandard2.0\XsAndOs.pdb
+C:\Users\Jack\Desktop\XsAndOs\XsAndOs\XsAndOs\obj\Debug\netstandard2.0\XsAndOs.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\XsAndOs\XsAndOs\XsAndOs\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jack\Desktop\XsAndOs\XsAndOs\XsAndOs\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jack\Desktop\XsAndOs\XsAndOs\XsAndOs\obj\Debug\netstandard2.0\XsAndOs.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\XsAndOs\XsAndOs\XsAndOs\obj\Debug\netstandard2.0\XsAndOs.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\XsAndOs\XsAndOs\XsAndOs\obj\Debug\netstandard2.0\XsAndOs.AssemblyInfo.cs
+C:\Users\Jack\Desktop\XsAndOs\XsAndOs\XsAndOs\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jack\Desktop\XsAndOs\XsAndOs\XsAndOs\obj\Debug\netstandard2.0\XsAndOs.dll
+C:\Users\Jack\Desktop\XsAndOs\XsAndOs\XsAndOs\obj\Debug\netstandard2.0\XsAndOs.pdb

@@ -1,0 +1,1 @@
+C:\Users\Jack\Desktop\CarouselPageTut\CarouselPageTut\CarouselPageTut.UWP\CarouselPageTut.UWP.csproj;x86
