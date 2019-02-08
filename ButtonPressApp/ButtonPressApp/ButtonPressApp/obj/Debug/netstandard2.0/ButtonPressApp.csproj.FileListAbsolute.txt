@@ -1,0 +1,12 @@
+C:\Users\Jack\Desktop\ButtonPressApp\ButtonPressApp\ButtonPressApp\bin\Debug\netstandard2.0\ButtonPressApp.deps.json
+C:\Users\Jack\Desktop\ButtonPressApp\ButtonPressApp\ButtonPressApp\bin\Debug\netstandard2.0\ButtonPressApp.dll
+C:\Users\Jack\Desktop\ButtonPressApp\ButtonPressApp\ButtonPressApp\bin\Debug\netstandard2.0\ButtonPressApp.pdb
+C:\Users\Jack\Desktop\ButtonPressApp\ButtonPressApp\ButtonPressApp\obj\Debug\netstandard2.0\ButtonPressApp.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\ButtonPressApp\ButtonPressApp\ButtonPressApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jack\Desktop\ButtonPressApp\ButtonPressApp\ButtonPressApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jack\Desktop\ButtonPressApp\ButtonPressApp\ButtonPressApp\obj\Debug\netstandard2.0\ButtonPressApp.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\ButtonPressApp\ButtonPressApp\ButtonPressApp\obj\Debug\netstandard2.0\ButtonPressApp.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\ButtonPressApp\ButtonPressApp\ButtonPressApp\obj\Debug\netstandard2.0\ButtonPressApp.AssemblyInfo.cs
+C:\Users\Jack\Desktop\ButtonPressApp\ButtonPressApp\ButtonPressApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jack\Desktop\ButtonPressApp\ButtonPressApp\ButtonPressApp\obj\Debug\netstandard2.0\ButtonPressApp.dll
+C:\Users\Jack\Desktop\ButtonPressApp\ButtonPressApp\ButtonPressApp\obj\Debug\netstandard2.0\ButtonPressApp.pdb
