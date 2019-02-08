@@ -1,0 +1,1 @@
+C:\Users\Jack\Desktop\ContentLayoutTutorial\ContentLayoutTutorial\ContentLayoutTutorial.UWP\ContentLayoutTutorial.UWP.csproj;x86

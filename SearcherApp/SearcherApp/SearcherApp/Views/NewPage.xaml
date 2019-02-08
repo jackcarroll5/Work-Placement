@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SearcherApp.NewPage"
+             xmlns:viewModels="clr-namespace:SearcherApp.ViewModels;assembly=SearcherApp"
+             Title="Remove Names-NameWatch"
+             BackgroundColor="ForestGreen">
+
+
+    <ContentPage.BindingContext>
+        <viewModels:PeopleViewModel/>
+    </ContentPage.BindingContext>
+    
+    <StackLayout>
+             
+    <ListView x:Name="NameList"
+        ItemsSource="{Binding People}"
+    HasUnevenRows="True">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout>
+                        <Label Text="{Binding Name}"
+                               TextColor="White"/>
+                        <Label Text="{Binding Age}"
+                                TextColor="White"/>
+                        <Button Text="Delete"
+                                Clicked="Button_ClickedAsync"
+                                BackgroundColor="Tomato"/>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+        <Button Text="Next Page"
+                Clicked="Button_Clicked"
+                BackgroundColor="RosyBrown"/>
+    </StackLayout>
+</ContentPage>

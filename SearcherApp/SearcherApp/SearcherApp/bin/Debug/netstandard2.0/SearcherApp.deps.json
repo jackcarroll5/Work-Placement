@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "77ac45fa75810ef28ecf58b94804c46f567cccb4"
+    "signature": "4215d5ce383cb9fdb84a6c4bf11e49b4f5fc9fe3"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,11 +9,26 @@
     ".NETStandard,Version=v2.0/": {
       "SearcherApp/1.0.0": {
         "dependencies": {
+          "FreshMvvm": "2.2.4",
           "NETStandard.Library": "2.0.3",
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Plugin.FormsStackPanel": "1.0.3",
+          "Xamarin.Forms": "3.4.0.1008975",
+          "Xamarin.Forms.Extended.InfiniteScrolling": "1.0.0-preview2"
         },
         "runtime": {
           "SearcherApp.dll": {}
+        }
+      },
+      "FreshMvvm/2.2.4": {
+        "runtime": {
+          "lib/netstandard1.0/FreshIOC.dll": {
+            "assemblyVersion": "1.0.6606.27413",
+            "fileVersion": "1.0.6606.27413"
+          },
+          "lib/netstandard1.0/FreshMvvm.dll": {
+            "assemblyVersion": "1.0.6606.27413",
+            "fileVersion": "1.0.6606.27413"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -22,6 +37,7 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
+      "Plugin.FormsStackPanel/1.0.3": {},
       "Xamarin.Forms/3.4.0.1008975": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
@@ -37,6 +53,18 @@
             "fileVersion": "2.0.0.0"
           }
         }
+      },
+      "Xamarin.Forms.Extended.InfiniteScrolling/1.0.0-preview2": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Xamarin.Forms.Extended.InfiniteScrolling.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -45,6 +73,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FreshMvvm/2.2.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CgrGEFdU17EsQzXiUgOOUjtLaTTCWMu9U1BsplGhVx7pPlcpMiVAo8kesnBdDR0D9jhZ96znwJxWIrmOdZJZWA==",
+      "path": "freshmvvm/2.2.4",
+      "hashPath": "freshmvvm.2.2.4.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -60,12 +95,26 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
+    "Plugin.FormsStackPanel/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kkn9GE/NKhY2YeLpjBBW7W25dDSQ/BXF2V16HaqJYSCIPUv4UwfhiNdMmb8kDnpgMED/URC4LWAxOPPZx1tzMg==",
+      "path": "plugin.formsstackpanel/1.0.3",
+      "hashPath": "plugin.formsstackpanel.1.0.3.nupkg.sha512"
+    },
     "Xamarin.Forms/3.4.0.1008975": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
       "path": "xamarin.forms/3.4.0.1008975",
       "hashPath": "xamarin.forms.3.4.0.1008975.nupkg.sha512"
+    },
+    "Xamarin.Forms.Extended.InfiniteScrolling/1.0.0-preview2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q3MleY9BqDnVKUiXSvYETV++mg70CVXt7h2jqd3etdq5HHrRTYJdjZUdAEBYg5OozfABV7m5QtISU1XheV83XQ==",
+      "path": "xamarin.forms.extended.infinitescrolling/1.0.0-preview2",
+      "hashPath": "xamarin.forms.extended.infinitescrolling.1.0.0-preview2.nupkg.sha512"
     }
   }
 }

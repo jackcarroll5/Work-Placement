@@ -2,6 +2,20 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
+      "FreshMvvm/2.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/FreshIOC.dll": {},
+          "lib/netstandard1.0/FreshMvvm.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/FreshIOC.dll": {},
+          "lib/netstandard1.0/FreshMvvm.dll": {}
+        }
+      },
+      "Plugin.FormsStackPanel/1.0.3": {
+        "type": "package"
+      },
       "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
         "type": "package",
         "dependencies": {
@@ -341,11 +355,27 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Extended.InfiniteScrolling/1.0.0-preview2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/netstandard1.0/Xamarin.Forms.Extended.InfiniteScrolling.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Xamarin.Forms.Extended.InfiniteScrolling.dll": {}
+        }
+      },
       "SearcherApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.4.0.1008975"
+          "FreshMvvm": "2.2.4",
+          "Plugin.FormsStackPanel": "1.0.3",
+          "Xamarin.Forms": "3.4.0.1008975",
+          "Xamarin.Forms.Extended.InfiniteScrolling": "1.0.0-preview2"
         },
         "compile": {
           "bin/placeholder/SearcherApp.dll": {}
@@ -357,6 +387,35 @@
     }
   },
   "libraries": {
+    "FreshMvvm/2.2.4": {
+      "sha512": "CgrGEFdU17EsQzXiUgOOUjtLaTTCWMu9U1BsplGhVx7pPlcpMiVAo8kesnBdDR0D9jhZ96znwJxWIrmOdZJZWA==",
+      "type": "package",
+      "path": "freshmvvm/2.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "freshmvvm.2.2.4.nupkg.sha512",
+        "freshmvvm.nuspec",
+        "lib/netstandard1.0/FreshIOC.dll",
+        "lib/netstandard1.0/FreshMvvm.dll",
+        "lib/netstandard1.0/FreshMvvm.pdb",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FreshIOC.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FreshMvvm.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FreshMvvm.pdb"
+      ]
+    },
+    "Plugin.FormsStackPanel/1.0.3": {
+      "sha512": "Kkn9GE/NKhY2YeLpjBBW7W25dDSQ/BXF2V16HaqJYSCIPUv4UwfhiNdMmb8kDnpgMED/URC4LWAxOPPZx1tzMg==",
+      "type": "package",
+      "path": "plugin.formsstackpanel/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Controls/StackPanel.cs",
+        "plugin.formsstackpanel.1.0.3.nupkg.sha512",
+        "plugin.formsstackpanel.nuspec"
+      ]
+    },
     "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
       "sha512": "UiWrWginObSSfmhKMTnRthhAWuH9yPhqP5ZCCCI9tTWl+XS/+sqcDjd84vP+dr1ve2h/AVZo9NgCbE1Xgktw2g==",
       "type": "package",
@@ -775,6 +834,19 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
         "xamarin.forms.3.4.0.1008975.nupkg.sha512",
         "xamarin.forms.nuspec"
+      ]
+    },
+    "Xamarin.Forms.Extended.InfiniteScrolling/1.0.0-preview2": {
+      "sha512": "q3MleY9BqDnVKUiXSvYETV++mg70CVXt7h2jqd3etdq5HHrRTYJdjZUdAEBYg5OozfABV7m5QtISU1XheV83XQ==",
+      "type": "package",
+      "path": "xamarin.forms.extended.infinitescrolling/1.0.0-preview2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.0/Xamarin.Forms.Extended.InfiniteScrolling.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Extended.InfiniteScrolling.xml",
+        "xamarin.forms.extended.infinitescrolling.1.0.0-preview2.nupkg.sha512",
+        "xamarin.forms.extended.infinitescrolling.nuspec"
       ]
     },
     "SearcherApp/1.0.0": {

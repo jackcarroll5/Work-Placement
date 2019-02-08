@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SearcherApp.NameReloader"
+             BackgroundColor="DarkCyan"
+             Title="Name Reloader">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Update more names whenever you reload this page"
+                   FontSize="25"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Fill"
+                   TextColor="Black"/>
+            <ListView x:Name="listNameView"
+                      IsPullToRefreshEnabled="True"
+                      Refreshing="ListNameView_Refreshing"
+                      ItemSelected="ListNameView_ItemSelected">
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

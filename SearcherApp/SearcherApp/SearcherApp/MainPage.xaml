@@ -2,14 +2,93 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:SearcherApp"
-             x:Class="SearcherApp.MainPage">
+             x:Class="SearcherApp.MainPage"
+             BackgroundColor="Gold"
+             Title="NameDateWatch">
 
-    <StackLayout>
+    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+
+        <Button Text="Quit"
+                HorizontalOptions="End"
+                BackgroundColor="Orange"
+                TextColor="White"
+                Clicked="Button_Clicked"/>
+
+        <Label Text="Search for any name"
+                 FontSize="25"
+               FontAttributes="Bold"/>
 
         <SearchBar x:Name="SearchingBar"
-                   SearchButtonPressed="SearchingBar_SearchButtonPressed"/>
+                   SearchButtonPressed="SearchingBar_SearchButtonPressed"
+                   TextChanged="SearchingBar_TextChanged"
+                   Placeholder="Name"
+                   PlaceholderColor="Gray"
+                   VerticalOptions="Center"/>
 
-        <ListView x:Name="ListingView"/>
+        <Label Text="List of Names:"
+                   FontSize="20"
+                   TextColor="Firebrick"
+                   FontAttributes="Italic"
+               Margin="12"/>
+
+        <Grid>
+            <ListView x:Name="NameSuggestionListView"
+                  BackgroundColor="YellowGreen"
+                  ItemTapped="NameSuggestionListView_ItemTapped"
+                      HasUnevenRows="True"
+                      Margin="3">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Label Text="{Binding .}"
+                                   TextColor="Teal"
+                                   FontSize="30"/>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+
+
+
+        <Label Text="Choose a date"
+            x:Name="DateLabel"
+              FontSize="22"
+              TextColor="Navy"
+               Margin="10"/>
+
+        <DatePicker x:Name="DateChooser"
+                    DateSelected="DateChooser_DateSelected"
+                    MinimumDate="1/1/1912"
+                    MaximumDate="12/31/3000"/>
+
+
+
+        <Grid HorizontalOptions="FillAndExpand">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="Next Page"
+                HorizontalOptions="Start"
+                    Grid.Column="0"
+                    WidthRequest="300"
+                    HeightRequest="175"
+                Clicked="NextPageButton_Clicked"
+                BackgroundColor="Wheat"/>
+
+
+            <Button Text="Delete"
+                HorizontalOptions="End"
+                BackgroundColor="Moccasin"
+                Grid.Column="1"
+                     WidthRequest="300"
+                    HeightRequest="175"
+                Clicked="Remove_Clicked"/>
+
+        </Grid>
+
 
     </StackLayout>
 

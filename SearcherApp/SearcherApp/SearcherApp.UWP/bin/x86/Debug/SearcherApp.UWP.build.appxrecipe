@@ -28,6 +28,12 @@
     <AppxPackagedFile Include="C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp.UWP\bin\x86\Debug\SearcherApp.UWP.exe">
       <PackagePath>entrypoint\SearcherApp.UWP.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jack\.nuget\packages\freshmvvm\2.2.4\lib\netstandard1.0\FreshIOC.dll">
+      <PackagePath>FreshIOC.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jack\.nuget\packages\freshmvvm\2.2.4\lib\netstandard1.0\FreshMvvm.dll">
+      <PackagePath>FreshMvvm.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jack\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
     </AppxPackagedFile>
@@ -531,6 +537,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jack\.nuget\packages\xamarin.forms\3.4.0.1008975\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jack\.nuget\packages\xamarin.forms.extended.infinitescrolling\1.0.0-preview2\lib\netstandard1.0\Xamarin.Forms.Extended.InfiniteScrolling.dll">
+      <PackagePath>Xamarin.Forms.Extended.InfiniteScrolling.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp\bin\Debug\netstandard2.0\SearcherApp.dll">
       <PackagePath>SearcherApp.dll</PackagePath>

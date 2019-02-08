@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>CD9DE4FF5D06DB3B9B7525C96D459ABA027DF940FFF847064FE469AC20A7D7C0</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>AF2F4BD7246CCADA352902B5A1C997223A8C2796811B738793EA28BBC9D5DA63</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>7982793f-2951-4e40-95f1-66fb13947bf0_1.0.0.0_x86__6mxxhg9bqf60g</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>7982793f-2951-4e40-95f1-66fb13947bf0_6mxxhg9bqf60g!App</RegisteredUserModeAppID>
     <RegisteredPackageID>7982793f-2951-4e40-95f1-66fb13947bf0</RegisteredPackageID>
@@ -30,13 +30,21 @@
     <AppXManifest Include="C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-01-30T17:38:56.870</Modified>
+      <Modified>2019-02-07T14:48:20.041</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp.UWP\bin\x86\Debug\SearcherApp.UWP.exe">
       <PackagePath>entrypoint\SearcherApp.UWP.exe</PackagePath>
-      <Modified>2019-01-30T17:38:39.220</Modified>
+      <Modified>2019-02-07T14:48:15.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jack\.nuget\packages\freshmvvm\2.2.4\lib\netstandard1.0\FreshIOC.dll">
+      <PackagePath>FreshIOC.dll</PackagePath>
+      <Modified>2018-02-01T15:19:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jack\.nuget\packages\freshmvvm\2.2.4\lib\netstandard1.0\FreshMvvm.dll">
+      <PackagePath>FreshMvvm.dll</PackagePath>
+      <Modified>2018-02-01T15:19:58.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jack\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -710,9 +718,13 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2018-11-13T20:15:22.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jack\.nuget\packages\xamarin.forms.extended.infinitescrolling\1.0.0-preview2\lib\netstandard1.0\Xamarin.Forms.Extended.InfiniteScrolling.dll">
+      <PackagePath>Xamarin.Forms.Extended.InfiniteScrolling.dll</PackagePath>
+      <Modified>2017-10-29T13:26:28.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp\bin\Debug\netstandard2.0\SearcherApp.dll">
       <PackagePath>SearcherApp.dll</PackagePath>
-      <Modified>2019-01-30T17:37:56.213</Modified>
+      <Modified>2019-02-07T14:47:48.850</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -859,11 +871,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-01-30T17:38:37.041</Modified>
+      <Modified>2019-02-07T14:48:14.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-01-30T17:38:37.042</Modified>
+      <Modified>2019-02-07T14:48:14.541</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -875,11 +887,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-01-30T17:38:52.540</Modified>
+      <Modified>2019-02-05T12:15:22.193</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp.UWP\bin\x86\Debug\Core\SearcherApp.UWP.exe">
       <PackagePath>SearcherApp.UWP.exe</PackagePath>
-      <Modified>2019-01-30T17:38:56.792</Modified>
+      <Modified>2019-02-07T14:48:19.952</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

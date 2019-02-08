@@ -298,3 +298,7 @@ C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp.UWP\obj\x86\Debug\qual
 C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp.UWP\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp.UWP\bin\x86\Debug\FreshIOC.dll
+C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp.UWP\bin\x86\Debug\FreshMvvm.dll
+C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp.UWP\bin\x86\Debug\FreshMvvm.pdb
+C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp.UWP\bin\x86\Debug\Xamarin.Forms.Extended.InfiniteScrolling.dll

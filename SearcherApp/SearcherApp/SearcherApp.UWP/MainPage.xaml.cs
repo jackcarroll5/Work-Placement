@@ -22,6 +22,7 @@ namespace SearcherApp.UWP
             this.InitializeComponent();
 
             LoadApplication(new SearcherApp.App());
+
         }
     }
 }

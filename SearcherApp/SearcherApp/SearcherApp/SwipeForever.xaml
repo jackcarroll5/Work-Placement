@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SearcherApp.SwipeForever"
+             xmlns:local="clr-namespace:SearcherApp"
+             xmlns:extended="clr-namespace:Xamarin.Forms.Extended;assembly=Xamarin.Forms.Extended.InfiniteScrolling"
+             BackgroundColor="IndianRed"
+             Title="Swipey - Infinity Swipe">
+
+    <ContentPage.BindingContext>
+        <local:MainNamesViewModel/>
+    </ContentPage.BindingContext>
+        
+        <StackLayout>
+            <Label Text="Welcome to Swipey - Where you can swipe up and down to match up with your favourite names using your mind"
+                   Margin="15,0"
+                   TextColor="WhiteSmoke"/>
+
+        <ListView ItemsSource="{Binding Names}"
+                CachingStrategy="RecycleElement"
+                      HasUnevenRows="True">
+
+            <ListView.Behaviors>
+                <extended:InfiniteScrollBehavior IsLoadingMore="{Binding IsBusy}"/>
+            </ListView.Behaviors>
+            
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="10">
+                            <Label Text="{Binding .}"
+                                   TextColor="Firebrick"
+                                   FontSize="25"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+            <ListView.Footer>
+                <Grid Padding="8"
+                      IsVisible="{Binding IsBusy}">
+                    <Grid.Triggers>
+                        <Trigger TargetType="Grid"
+                                 Property="IsVisible"
+                                 Value="False">
+                            <Setter Property="HeightRequest"
+                                    Value="0"/>
+                        </Trigger>
+                    </Grid.Triggers>
+                    <Label Text="More names loading..."
+                           TextColor="MediumBlue"
+                           FontSize="22"
+                           FontAttributes="Bold"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center"/>
+                </Grid>
+            </ListView.Footer>
+        </ListView>
+    </StackLayout>
+    
+</ContentPage>

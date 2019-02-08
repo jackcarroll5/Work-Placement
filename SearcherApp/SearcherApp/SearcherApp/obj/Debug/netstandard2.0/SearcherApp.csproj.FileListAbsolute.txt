@@ -7,6 +7,12 @@ C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp\obj\Debug\netstandard2
 C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp\obj\Debug\netstandard2.0\SearcherApp.csproj.CoreCompileInputs.cache
 C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp\obj\Debug\netstandard2.0\SearcherApp.AssemblyInfoInputs.cache
 C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp\obj\Debug\netstandard2.0\SearcherApp.AssemblyInfo.cs
-C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp\obj\Debug\netstandard2.0\SearcherApp.dll
 C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp\obj\Debug\netstandard2.0\SearcherApp.pdb
+C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp\obj\Debug\netstandard2.0\Views\NewPage.xaml.g.cs
+C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp\obj\Debug\netstandard2.0\Views\TabbingPage.xaml.g.cs
+C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp\obj\Debug\netstandard2.0\Views\DatePage.xaml.g.cs
+C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp\obj\Debug\netstandard2.0\Views\NamePage.xaml.g.cs
+C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp\obj\Debug\netstandard2.0\SwipeForever.xaml.g.cs
+C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp\obj\Debug\netstandard2.0\NameReloader.xaml.g.cs
+C:\Users\Jack\Desktop\SearcherApp\SearcherApp\SearcherApp\obj\Debug\netstandard2.0\XamlC.stamp

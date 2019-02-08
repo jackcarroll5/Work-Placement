@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SearcherApp.Views.NamePage"
+             Title="NameTinderBox"
+             BackgroundColor="Navy">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to the Name page! Find the best Name for you for fun but not for shaming!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                   TextColor="NavajoWhite"/>
+            <Button Text="Next"
+                    Clicked="Button_Clicked"
+                    HorizontalOptions="Center"
+                    BackgroundColor="Chocolate"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
