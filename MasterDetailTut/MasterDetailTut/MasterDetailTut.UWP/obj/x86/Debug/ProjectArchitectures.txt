@@ -1,0 +1,1 @@
+C:\Users\Jack\Desktop\MasterDetailTut\MasterDetailTut\MasterDetailTut.UWP\MasterDetailTut.UWP.csproj;x86

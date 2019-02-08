@@ -1,0 +1,14 @@
+C:\Users\Jack\Desktop\MasterDetailTut\MasterDetailTut\MasterDetailTut\bin\Debug\netstandard2.0\MasterDetailTut.deps.json
+C:\Users\Jack\Desktop\MasterDetailTut\MasterDetailTut\MasterDetailTut\bin\Debug\netstandard2.0\MasterDetailTut.dll
+C:\Users\Jack\Desktop\MasterDetailTut\MasterDetailTut\MasterDetailTut\bin\Debug\netstandard2.0\MasterDetailTut.pdb
+C:\Users\Jack\Desktop\MasterDetailTut\MasterDetailTut\MasterDetailTut\obj\Debug\netstandard2.0\MasterDetailTut.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\MasterDetailTut\MasterDetailTut\MasterDetailTut\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jack\Desktop\MasterDetailTut\MasterDetailTut\MasterDetailTut\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jack\Desktop\MasterDetailTut\MasterDetailTut\MasterDetailTut\obj\Debug\netstandard2.0\MasterDetailTut.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\MasterDetailTut\MasterDetailTut\MasterDetailTut\obj\Debug\netstandard2.0\MasterDetailTut.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\MasterDetailTut\MasterDetailTut\MasterDetailTut\obj\Debug\netstandard2.0\MasterDetailTut.AssemblyInfo.cs
+C:\Users\Jack\Desktop\MasterDetailTut\MasterDetailTut\MasterDetailTut\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jack\Desktop\MasterDetailTut\MasterDetailTut\MasterDetailTut\obj\Debug\netstandard2.0\MasterDetailTut.dll
+C:\Users\Jack\Desktop\MasterDetailTut\MasterDetailTut\MasterDetailTut\obj\Debug\netstandard2.0\MasterDetailTut.pdb
+C:\Users\Jack\Desktop\MasterDetailTut\MasterDetailTut\MasterDetailTut\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+C:\Users\Jack\Desktop\MasterDetailTut\MasterDetailTut\MasterDetailTut\obj\Debug\netstandard2.0\Page2.xaml.g.cs
