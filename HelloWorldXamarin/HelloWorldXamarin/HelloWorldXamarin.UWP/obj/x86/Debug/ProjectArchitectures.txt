@@ -1,0 +1,1 @@
+C:\Users\Jack\Desktop\HelloWorldXamarin\HelloWorldXamarin\HelloWorldXamarin.UWP\HelloWorldXamarin.UWP.csproj;x86
