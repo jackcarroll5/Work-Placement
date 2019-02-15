@@ -1,0 +1,1 @@
+C:\Users\Jack\source\repos\MVVMPrismApp\MVVMPrismApp\MVVMPrismApp.UWP\MVVMPrismApp.UWP.csproj;x86

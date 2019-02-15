@@ -1,0 +1,1 @@
+C:\Users\Jack\source\repos\LightMVVM\LightMVVM\LightMVVM.UWP\LightMVVM.UWP.csproj;x86

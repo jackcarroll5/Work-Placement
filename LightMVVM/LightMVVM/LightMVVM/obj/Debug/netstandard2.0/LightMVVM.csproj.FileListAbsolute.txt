@@ -1,0 +1,12 @@
+C:\Users\Jack\source\repos\LightMVVM\LightMVVM\LightMVVM\obj\Debug\netstandard2.0\LightMVVM.csprojAssemblyReference.cache
+C:\Users\Jack\source\repos\LightMVVM\LightMVVM\LightMVVM\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jack\source\repos\LightMVVM\LightMVVM\LightMVVM\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jack\source\repos\LightMVVM\LightMVVM\LightMVVM\obj\Debug\netstandard2.0\LightMVVM.csproj.CoreCompileInputs.cache
+C:\Users\Jack\source\repos\LightMVVM\LightMVVM\LightMVVM\obj\Debug\netstandard2.0\LightMVVM.AssemblyInfoInputs.cache
+C:\Users\Jack\source\repos\LightMVVM\LightMVVM\LightMVVM\obj\Debug\netstandard2.0\LightMVVM.AssemblyInfo.cs
+C:\Users\Jack\source\repos\LightMVVM\LightMVVM\LightMVVM\obj\Debug\netstandard2.0\LightMVVM.dll
+C:\Users\Jack\source\repos\LightMVVM\LightMVVM\LightMVVM\obj\Debug\netstandard2.0\LightMVVM.pdb
+C:\Users\Jack\source\repos\LightMVVM\LightMVVM\LightMVVM\bin\Debug\netstandard2.0\LightMVVM.deps.json
+C:\Users\Jack\source\repos\LightMVVM\LightMVVM\LightMVVM\bin\Debug\netstandard2.0\LightMVVM.dll
+C:\Users\Jack\source\repos\LightMVVM\LightMVVM\LightMVVM\bin\Debug\netstandard2.0\LightMVVM.pdb
+C:\Users\Jack\source\repos\LightMVVM\LightMVVM\LightMVVM\obj\Debug\netstandard2.0\XamlC.stamp

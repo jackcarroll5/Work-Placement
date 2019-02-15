@@ -1,0 +1,14 @@
+C:\Users\Jack\source\repos\MVVMPrismApp\MVVMPrismApp\MVVMPrismApp\bin\Debug\netstandard2.0\MVVMPrismApp.deps.json
+C:\Users\Jack\source\repos\MVVMPrismApp\MVVMPrismApp\MVVMPrismApp\bin\Debug\netstandard2.0\MVVMPrismApp.dll
+C:\Users\Jack\source\repos\MVVMPrismApp\MVVMPrismApp\MVVMPrismApp\bin\Debug\netstandard2.0\MVVMPrismApp.pdb
+C:\Users\Jack\source\repos\MVVMPrismApp\MVVMPrismApp\MVVMPrismApp\obj\Debug\netstandard2.0\MVVMPrismApp.csprojAssemblyReference.cache
+C:\Users\Jack\source\repos\MVVMPrismApp\MVVMPrismApp\MVVMPrismApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jack\source\repos\MVVMPrismApp\MVVMPrismApp\MVVMPrismApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Jack\source\repos\MVVMPrismApp\MVVMPrismApp\MVVMPrismApp\obj\Debug\netstandard2.0\Views\NewPage.xaml.g.cs
+C:\Users\Jack\source\repos\MVVMPrismApp\MVVMPrismApp\MVVMPrismApp\obj\Debug\netstandard2.0\MVVMPrismApp.csproj.CoreCompileInputs.cache
+C:\Users\Jack\source\repos\MVVMPrismApp\MVVMPrismApp\MVVMPrismApp\obj\Debug\netstandard2.0\MVVMPrismApp.AssemblyInfoInputs.cache
+C:\Users\Jack\source\repos\MVVMPrismApp\MVVMPrismApp\MVVMPrismApp\obj\Debug\netstandard2.0\MVVMPrismApp.AssemblyInfo.cs
+C:\Users\Jack\source\repos\MVVMPrismApp\MVVMPrismApp\MVVMPrismApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jack\source\repos\MVVMPrismApp\MVVMPrismApp\MVVMPrismApp\obj\Debug\netstandard2.0\MVVMPrismApp.dll
+C:\Users\Jack\source\repos\MVVMPrismApp\MVVMPrismApp\MVVMPrismApp\obj\Debug\netstandard2.0\MVVMPrismApp.pdb
+C:\Users\Jack\source\repos\MVVMPrismApp\MVVMPrismApp\MVVMPrismApp\obj\Debug\netstandard2.0\Views\Blog.xaml.g.cs

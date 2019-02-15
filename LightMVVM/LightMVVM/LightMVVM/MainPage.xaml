@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LightMVVM"
+             x:Class="LightMVVM.MainPage"
+             Title="Light MVVM App"
+             BackgroundColor="LightGoldenrodYellow">
+    
+    <ContentPage.Content>
+    <StackLayout Orientation="Vertical" 
+                 HorizontalOptions="FillAndExpand"
+                 Spacing="10"
+                 Padding="10">
+            <StackLayout Orientation="Horizontal"
+                         VerticalOptions="Start"
+                         HorizontalOptions="FillAndExpand">
+                <Entry HorizontalOptions="FillAndExpand"
+                      HeightRequest="50"
+                      Text="{Binding NewItem}">
+                </Entry>
+                <Button Text="Add"
+                       HeightRequest="50"
+                       HorizontalOptions="End"
+                       Command="{Binding AddItem}">
+                </Button>
+            </StackLayout>
+
+            <ListView ItemsSource="{Binding Items}"
+                  HorizontalOptions="FillAndExpand"
+                  VerticalOptions="FillAndExpand">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <SwitchCell Text="{Binding Name}"
+                                    On="{Binding Finished}">
+                        </SwitchCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
