@@ -1,0 +1,1 @@
+C:\Users\Jack\source\repos\DepService\DepService\DepService.UWP\DepService.UWP.csproj;x86

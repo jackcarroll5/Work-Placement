@@ -1,0 +1,12 @@
+C:\Users\Jack\source\repos\DepService\DepService\DepService\bin\Debug\netstandard2.0\DepService.deps.json
+C:\Users\Jack\source\repos\DepService\DepService\DepService\bin\Debug\netstandard2.0\DepService.dll
+C:\Users\Jack\source\repos\DepService\DepService\DepService\bin\Debug\netstandard2.0\DepService.pdb
+C:\Users\Jack\source\repos\DepService\DepService\DepService\obj\Debug\netstandard2.0\DepService.csprojAssemblyReference.cache
+C:\Users\Jack\source\repos\DepService\DepService\DepService\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jack\source\repos\DepService\DepService\DepService\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jack\source\repos\DepService\DepService\DepService\obj\Debug\netstandard2.0\DepService.csproj.CoreCompileInputs.cache
+C:\Users\Jack\source\repos\DepService\DepService\DepService\obj\Debug\netstandard2.0\DepService.AssemblyInfoInputs.cache
+C:\Users\Jack\source\repos\DepService\DepService\DepService\obj\Debug\netstandard2.0\DepService.AssemblyInfo.cs
+C:\Users\Jack\source\repos\DepService\DepService\DepService\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jack\source\repos\DepService\DepService\DepService\obj\Debug\netstandard2.0\DepService.dll
+C:\Users\Jack\source\repos\DepService\DepService\DepService\obj\Debug\netstandard2.0\DepService.pdb
