@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Database" Label="advworks.sqlite" Category="Database" Group="Expanded" />
+    <Node Id="dbo.Address" Label="dbo.Address" Category="Table" Group="Collapsed" />
+    <Node Id="dbo.Address_AddressID" Label="AddressID" Category="Field Optional" />
+    <Node Id="dbo.Address_AddressLine1" Label="AddressLine1" Category="Field Optional" />
+    <Node Id="dbo.Address_AddressLine2" Label="AddressLine2" Category="Field Optional" />
+    <Node Id="dbo.Address_City" Label="City" Category="Field Optional" />
+    <Node Id="dbo.Address_StateProvince" Label="StateProvince" Category="Field Optional" />
+    <Node Id="dbo.Address_CountryRegion" Label="CountryRegion" Category="Field Optional" />
+    <Node Id="dbo.Address_PostalCode" Label="PostalCode" Category="Field Optional" />
+    <Node Id="dbo.Address_rowguid" Label="rowguid" Category="Field Optional" />
+    <Node Id="dbo.Address_ModifiedDate" Label="ModifiedDate" Category="Field Optional" />
+    <Node Id="dbo.BuildVersion" Label="dbo.BuildVersion" Category="Table" Group="Collapsed" />
+    <Node Id="dbo.BuildVersion_SystemInformationID" Label="SystemInformationID" Category="Field Optional" />
+    <Node Id="dbo.BuildVersion_Database Version" Label="Database Version" Category="Field Optional" />
+    <Node Id="dbo.BuildVersion_VersionDate" Label="VersionDate" Category="Field Optional" />
+    <Node Id="dbo.BuildVersion_ModifiedDate" Label="ModifiedDate" Category="Field Optional" />
+    <Node Id="dbo.Customer" Label="dbo.Customer" Category="Table" Group="Collapsed" />
+    <Node Id="dbo.Customer_CustomerID" Label="CustomerID" Category="Field Optional" />
+    <Node Id="dbo.Customer_NameStyle" Label="NameStyle" Category="Field Optional" />
+    <Node Id="dbo.Customer_Title" Label="Title" Category="Field Optional" />
+    <Node Id="dbo.Customer_FirstName" Label="FirstName" Category="Field Optional" />
+    <Node Id="dbo.Customer_MiddleName" Label="MiddleName" Category="Field Optional" />
+    <Node Id="dbo.Customer_LastName" Label="LastName" Category="Field Optional" />
+    <Node Id="dbo.Customer_Suffix" Label="Suffix" Category="Field Optional" />
+    <Node Id="dbo.Customer_CompanyName" Label="CompanyName" Category="Field Optional" />
+    <Node Id="dbo.Customer_SalesPerson" Label="SalesPerson" Category="Field Optional" />
+    <Node Id="dbo.Customer_EmailAddress" Label="EmailAddress" Category="Field Optional" />
+    <Node Id="dbo.Customer_Phone" Label="Phone" Category="Field Optional" />
+    <Node Id="dbo.Customer_PasswordHash" Label="PasswordHash" Category="Field Optional" />
+    <Node Id="dbo.Customer_PasswordSalt" Label="PasswordSalt" Category="Field Optional" />
+    <Node Id="dbo.Customer_rowguid" Label="rowguid" Category="Field Optional" />
+    <Node Id="dbo.Customer_ModifiedDate" Label="ModifiedDate" Category="Field Optional" />
+    <Node Id="dbo.CustomerAddress" Label="dbo.CustomerAddress" Category="Table" Group="Collapsed" />
+    <Node Id="dbo.CustomerAddress_CustomerID" Label="CustomerID" Category="Field Optional" />
+    <Node Id="dbo.CustomerAddress_AddressID" Label="AddressID" Category="Field Optional" />
+    <Node Id="dbo.CustomerAddress_AddressType" Label="AddressType" Category="Field Optional" />
+    <Node Id="dbo.CustomerAddress_rowguid" Label="rowguid" Category="Field Optional" />
+    <Node Id="dbo.CustomerAddress_ModifiedDate" Label="ModifiedDate" Category="Field Optional" />
+    <Node Id="dbo.ErrorLog" Label="dbo.ErrorLog" Category="Table" Group="Collapsed" />
+    <Node Id="dbo.ErrorLog_ErrorLogID" Label="ErrorLogID" Category="Field Optional" />
+    <Node Id="dbo.ErrorLog_ErrorTime" Label="ErrorTime" Category="Field Optional" />
+    <Node Id="dbo.ErrorLog_UserName" Label="UserName" Category="Field Optional" />
+    <Node Id="dbo.ErrorLog_ErrorNumber" Label="ErrorNumber" Category="Field Optional" />
+    <Node Id="dbo.ErrorLog_ErrorSeverity" Label="ErrorSeverity" Category="Field Optional" />
+    <Node Id="dbo.ErrorLog_ErrorState" Label="ErrorState" Category="Field Optional" />
+    <Node Id="dbo.ErrorLog_ErrorProcedure" Label="ErrorProcedure" Category="Field Optional" />
+    <Node Id="dbo.ErrorLog_ErrorLine" Label="ErrorLine" Category="Field Optional" />
+    <Node Id="dbo.ErrorLog_ErrorMessage" Label="ErrorMessage" Category="Field Optional" />
+    <Node Id="dbo.Product" Label="dbo.Product" Category="Table" Group="Collapsed" />
+    <Node Id="dbo.Product_ProductID" Label="ProductID" Category="Field Optional" />
+    <Node Id="dbo.Product_Name" Label="Name" Category="Field Optional" />
+    <Node Id="dbo.Product_ProductNumber" Label="ProductNumber" Category="Field Optional" />
+    <Node Id="dbo.Product_Color" Label="Color" Category="Field Optional" />
+    <Node Id="dbo.Product_StandardCost" Label="StandardCost" Category="Field Optional" />
+    <Node Id="dbo.Product_ListPrice" Label="ListPrice" Category="Field Optional" />
+    <Node Id="dbo.Product_Size" Label="Size" Category="Field Optional" />
+    <Node Id="dbo.Product_Weight" Label="Weight" Category="Field Optional" />
+    <Node Id="dbo.Product_ProductCategoryID" Label="ProductCategoryID" Category="Field Optional" />
+    <Node Id="dbo.Product_ProductModelID" Label="ProductModelID" Category="Field Optional" />
+    <Node Id="dbo.Product_SellStartDate" Label="SellStartDate" Category="Field Optional" />
+    <Node Id="dbo.Product_SellEndDate" Label="SellEndDate" Category="Field Optional" />
+    <Node Id="dbo.Product_DiscontinuedDate" Label="DiscontinuedDate" Category="Field Optional" />
+    <Node Id="dbo.Product_ThumbNailPhoto" Label="ThumbNailPhoto" Category="Field Optional" />
+    <Node Id="dbo.Product_ThumbnailPhotoFileName" Label="ThumbnailPhotoFileName" Category="Field Optional" />
+    <Node Id="dbo.Product_rowguid" Label="rowguid" Category="Field Optional" />
+    <Node Id="dbo.Product_ModifiedDate" Label="ModifiedDate" Category="Field Optional" />
+    <Node Id="dbo.ProductCategory" Label="dbo.ProductCategory" Category="Table" Group="Collapsed" />
+    <Node Id="dbo.ProductCategory_ProductCategoryID" Label="ProductCategoryID" Category="Field Optional" />
+    <Node Id="dbo.ProductCategory_ParentProductCategoryID" Label="ParentProductCategoryID" Category="Field Optional" />
+    <Node Id="dbo.ProductCategory_Name" Label="Name" Category="Field Optional" />
+    <Node Id="dbo.ProductCategory_rowguid" Label="rowguid" Category="Field Optional" />
+    <Node Id="dbo.ProductCategory_ModifiedDate" Label="ModifiedDate" Category="Field Optional" />
+    <Node Id="dbo.ProductDescription" Label="dbo.ProductDescription" Category="Table" Group="Collapsed" />
+    <Node Id="dbo.ProductDescription_ProductDescriptionID" Label="ProductDescriptionID" Category="Field Optional" />
+    <Node Id="dbo.ProductDescription_Description" Label="Description" Category="Field Optional" />
+    <Node Id="dbo.ProductDescription_rowguid" Label="rowguid" Category="Field Optional" />
+    <Node Id="dbo.ProductDescription_ModifiedDate" Label="ModifiedDate" Category="Field Optional" />
+    <Node Id="dbo.ProductModel" Label="dbo.ProductModel" Category="Table" Group="Collapsed" />
+    <Node Id="dbo.ProductModel_ProductModelID" Label="ProductModelID" Category="Field Optional" />
+    <Node Id="dbo.ProductModel_Name" Label="Name" Category="Field Optional" />
+    <Node Id="dbo.ProductModel_CatalogDescription" Label="CatalogDescription" Category="Field Optional" />
+    <Node Id="dbo.ProductModel_rowguid" Label="rowguid" Category="Field Optional" />
+    <Node Id="dbo.ProductModel_ModifiedDate" Label="ModifiedDate" Category="Field Optional" />
+    <Node Id="dbo.ProductModelProductDescription" Label="dbo.ProductModelProductDescription" Category="Table" Group="Collapsed" />
+    <Node Id="dbo.ProductModelProductDescription_ProductModelID" Label="ProductModelID" Category="Field Optional" />
+    <Node Id="dbo.ProductModelProductDescription_ProductDescriptionID" Label="ProductDescriptionID" Category="Field Optional" />
+    <Node Id="dbo.ProductModelProductDescription_Culture" Label="Culture" Category="Field Optional" />
+    <Node Id="dbo.ProductModelProductDescription_rowguid" Label="rowguid" Category="Field Optional" />
+    <Node Id="dbo.ProductModelProductDescription_ModifiedDate" Label="ModifiedDate" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderDetail" Label="dbo.SalesOrderDetail" Category="Table" Group="Collapsed" />
+    <Node Id="dbo.SalesOrderDetail_SalesOrderID" Label="SalesOrderID" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderDetail_SalesOrderDetailID" Label="SalesOrderDetailID" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderDetail_OrderQty" Label="OrderQty" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderDetail_ProductID" Label="ProductID" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderDetail_UnitPrice" Label="UnitPrice" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderDetail_UnitPriceDiscount" Label="UnitPriceDiscount" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderDetail_LineTotal" Label="LineTotal" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderDetail_rowguid" Label="rowguid" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderDetail_ModifiedDate" Label="ModifiedDate" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader" Label="dbo.SalesOrderHeader" Category="Table" Group="Collapsed" />
+    <Node Id="dbo.SalesOrderHeader_SalesOrderID" Label="SalesOrderID" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader_RevisionNumber" Label="RevisionNumber" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader_OrderDate" Label="OrderDate" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader_DueDate" Label="DueDate" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader_ShipDate" Label="ShipDate" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader_Status" Label="Status" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader_OnlineOrderFlag" Label="OnlineOrderFlag" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader_SalesOrderNumber" Label="SalesOrderNumber" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader_PurchaseOrderNumber" Label="PurchaseOrderNumber" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader_AccountNumber" Label="AccountNumber" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader_CustomerID" Label="CustomerID" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader_ShipToAddressID" Label="ShipToAddressID" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader_BillToAddressID" Label="BillToAddressID" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader_ShipMethod" Label="ShipMethod" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader_CreditCardApprovalCode" Label="CreditCardApprovalCode" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader_SubTotal" Label="SubTotal" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader_TaxAmt" Label="TaxAmt" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader_Freight" Label="Freight" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader_TotalDue" Label="TotalDue" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader_Comment" Label="Comment" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader_rowguid" Label="rowguid" Category="Field Optional" />
+    <Node Id="dbo.SalesOrderHeader_ModifiedDate" Label="ModifiedDate" Category="Field Optional" />
+  </Nodes>
+  <Links>
+    <Link Source="Database" Target="dbo.Address" Category="Contains" />
+    <Link Source="dbo.Address" Target="dbo.Address_AddressID" Category="Contains" />
+    <Link Source="dbo.Address" Target="dbo.Address_AddressLine1" Category="Contains" />
+    <Link Source="dbo.Address" Target="dbo.Address_AddressLine2" Category="Contains" />
+    <Link Source="dbo.Address" Target="dbo.Address_City" Category="Contains" />
+    <Link Source="dbo.Address" Target="dbo.Address_StateProvince" Category="Contains" />
+    <Link Source="dbo.Address" Target="dbo.Address_CountryRegion" Category="Contains" />
+    <Link Source="dbo.Address" Target="dbo.Address_PostalCode" Category="Contains" />
+    <Link Source="dbo.Address" Target="dbo.Address_rowguid" Category="Contains" />
+    <Link Source="dbo.Address" Target="dbo.Address_ModifiedDate" Category="Contains" />
+    <Link Source="Database" Target="dbo.BuildVersion" Category="Contains" />
+    <Link Source="dbo.BuildVersion" Target="dbo.BuildVersion_SystemInformationID" Category="Contains" />
+    <Link Source="dbo.BuildVersion" Target="dbo.BuildVersion_Database Version" Category="Contains" />
+    <Link Source="dbo.BuildVersion" Target="dbo.BuildVersion_VersionDate" Category="Contains" />
+    <Link Source="dbo.BuildVersion" Target="dbo.BuildVersion_ModifiedDate" Category="Contains" />
+    <Link Source="Database" Target="dbo.Customer" Category="Contains" />
+    <Link Source="dbo.Customer" Target="dbo.Customer_CustomerID" Category="Contains" />
+    <Link Source="dbo.Customer" Target="dbo.Customer_NameStyle" Category="Contains" />
+    <Link Source="dbo.Customer" Target="dbo.Customer_Title" Category="Contains" />
+    <Link Source="dbo.Customer" Target="dbo.Customer_FirstName" Category="Contains" />
+    <Link Source="dbo.Customer" Target="dbo.Customer_MiddleName" Category="Contains" />
+    <Link Source="dbo.Customer" Target="dbo.Customer_LastName" Category="Contains" />
+    <Link Source="dbo.Customer" Target="dbo.Customer_Suffix" Category="Contains" />
+    <Link Source="dbo.Customer" Target="dbo.Customer_CompanyName" Category="Contains" />
+    <Link Source="dbo.Customer" Target="dbo.Customer_SalesPerson" Category="Contains" />
+    <Link Source="dbo.Customer" Target="dbo.Customer_EmailAddress" Category="Contains" />
+    <Link Source="dbo.Customer" Target="dbo.Customer_Phone" Category="Contains" />
+    <Link Source="dbo.Customer" Target="dbo.Customer_PasswordHash" Category="Contains" />
+    <Link Source="dbo.Customer" Target="dbo.Customer_PasswordSalt" Category="Contains" />
+    <Link Source="dbo.Customer" Target="dbo.Customer_rowguid" Category="Contains" />
+    <Link Source="dbo.Customer" Target="dbo.Customer_ModifiedDate" Category="Contains" />
+    <Link Source="Database" Target="dbo.CustomerAddress" Category="Contains" />
+    <Link Source="dbo.CustomerAddress" Target="dbo.CustomerAddress_CustomerID" Category="Contains" />
+    <Link Source="dbo.CustomerAddress" Target="dbo.CustomerAddress_AddressID" Category="Contains" />
+    <Link Source="dbo.CustomerAddress" Target="dbo.CustomerAddress_AddressType" Category="Contains" />
+    <Link Source="dbo.CustomerAddress" Target="dbo.CustomerAddress_rowguid" Category="Contains" />
+    <Link Source="dbo.CustomerAddress" Target="dbo.CustomerAddress_ModifiedDate" Category="Contains" />
+    <Link Source="Database" Target="dbo.ErrorLog" Category="Contains" />
+    <Link Source="dbo.ErrorLog" Target="dbo.ErrorLog_ErrorLogID" Category="Contains" />
+    <Link Source="dbo.ErrorLog" Target="dbo.ErrorLog_ErrorTime" Category="Contains" />
+    <Link Source="dbo.ErrorLog" Target="dbo.ErrorLog_UserName" Category="Contains" />
+    <Link Source="dbo.ErrorLog" Target="dbo.ErrorLog_ErrorNumber" Category="Contains" />
+    <Link Source="dbo.ErrorLog" Target="dbo.ErrorLog_ErrorSeverity" Category="Contains" />
+    <Link Source="dbo.ErrorLog" Target="dbo.ErrorLog_ErrorState" Category="Contains" />
+    <Link Source="dbo.ErrorLog" Target="dbo.ErrorLog_ErrorProcedure" Category="Contains" />
+    <Link Source="dbo.ErrorLog" Target="dbo.ErrorLog_ErrorLine" Category="Contains" />
+    <Link Source="dbo.ErrorLog" Target="dbo.ErrorLog_ErrorMessage" Category="Contains" />
+    <Link Source="Database" Target="dbo.Product" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_ProductID" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_Name" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_ProductNumber" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_Color" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_StandardCost" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_ListPrice" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_Size" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_Weight" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_ProductCategoryID" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_ProductModelID" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_SellStartDate" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_SellEndDate" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_DiscontinuedDate" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_ThumbNailPhoto" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_ThumbnailPhotoFileName" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_rowguid" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_ModifiedDate" Category="Contains" />
+    <Link Source="Database" Target="dbo.ProductCategory" Category="Contains" />
+    <Link Source="dbo.ProductCategory" Target="dbo.ProductCategory_ProductCategoryID" Category="Contains" />
+    <Link Source="dbo.ProductCategory" Target="dbo.ProductCategory_ParentProductCategoryID" Category="Contains" />
+    <Link Source="dbo.ProductCategory" Target="dbo.ProductCategory_Name" Category="Contains" />
+    <Link Source="dbo.ProductCategory" Target="dbo.ProductCategory_rowguid" Category="Contains" />
+    <Link Source="dbo.ProductCategory" Target="dbo.ProductCategory_ModifiedDate" Category="Contains" />
+    <Link Source="Database" Target="dbo.ProductDescription" Category="Contains" />
+    <Link Source="dbo.ProductDescription" Target="dbo.ProductDescription_ProductDescriptionID" Category="Contains" />
+    <Link Source="dbo.ProductDescription" Target="dbo.ProductDescription_Description" Category="Contains" />
+    <Link Source="dbo.ProductDescription" Target="dbo.ProductDescription_rowguid" Category="Contains" />
+    <Link Source="dbo.ProductDescription" Target="dbo.ProductDescription_ModifiedDate" Category="Contains" />
+    <Link Source="Database" Target="dbo.ProductModel" Category="Contains" />
+    <Link Source="dbo.ProductModel" Target="dbo.ProductModel_ProductModelID" Category="Contains" />
+    <Link Source="dbo.ProductModel" Target="dbo.ProductModel_Name" Category="Contains" />
+    <Link Source="dbo.ProductModel" Target="dbo.ProductModel_CatalogDescription" Category="Contains" />
+    <Link Source="dbo.ProductModel" Target="dbo.ProductModel_rowguid" Category="Contains" />
+    <Link Source="dbo.ProductModel" Target="dbo.ProductModel_ModifiedDate" Category="Contains" />
+    <Link Source="Database" Target="dbo.ProductModelProductDescription" Category="Contains" />
+    <Link Source="dbo.ProductModelProductDescription" Target="dbo.ProductModelProductDescription_ProductModelID" Category="Contains" />
+    <Link Source="dbo.ProductModelProductDescription" Target="dbo.ProductModelProductDescription_ProductDescriptionID" Category="Contains" />
+    <Link Source="dbo.ProductModelProductDescription" Target="dbo.ProductModelProductDescription_Culture" Category="Contains" />
+    <Link Source="dbo.ProductModelProductDescription" Target="dbo.ProductModelProductDescription_rowguid" Category="Contains" />
+    <Link Source="dbo.ProductModelProductDescription" Target="dbo.ProductModelProductDescription_ModifiedDate" Category="Contains" />
+    <Link Source="Database" Target="dbo.SalesOrderDetail" Category="Contains" />
+    <Link Source="dbo.SalesOrderDetail" Target="dbo.SalesOrderDetail_SalesOrderID" Category="Contains" />
+    <Link Source="dbo.SalesOrderDetail" Target="dbo.SalesOrderDetail_SalesOrderDetailID" Category="Contains" />
+    <Link Source="dbo.SalesOrderDetail" Target="dbo.SalesOrderDetail_OrderQty" Category="Contains" />
+    <Link Source="dbo.SalesOrderDetail" Target="dbo.SalesOrderDetail_ProductID" Category="Contains" />
+    <Link Source="dbo.SalesOrderDetail" Target="dbo.SalesOrderDetail_UnitPrice" Category="Contains" />
+    <Link Source="dbo.SalesOrderDetail" Target="dbo.SalesOrderDetail_UnitPriceDiscount" Category="Contains" />
+    <Link Source="dbo.SalesOrderDetail" Target="dbo.SalesOrderDetail_LineTotal" Category="Contains" />
+    <Link Source="dbo.SalesOrderDetail" Target="dbo.SalesOrderDetail_rowguid" Category="Contains" />
+    <Link Source="dbo.SalesOrderDetail" Target="dbo.SalesOrderDetail_ModifiedDate" Category="Contains" />
+    <Link Source="Database" Target="dbo.SalesOrderHeader" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_SalesOrderID" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_RevisionNumber" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_OrderDate" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_DueDate" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_ShipDate" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_Status" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_OnlineOrderFlag" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_SalesOrderNumber" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_PurchaseOrderNumber" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_AccountNumber" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_CustomerID" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_ShipToAddressID" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_BillToAddressID" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_ShipMethod" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_CreditCardApprovalCode" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_SubTotal" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_TaxAmt" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_Freight" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_TotalDue" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_Comment" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_rowguid" Category="Contains" />
+    <Link Source="dbo.SalesOrderHeader" Target="dbo.SalesOrderHeader_ModifiedDate" Category="Contains" />
+  </Links>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Table" ValueLabel="True">
+      <Condition Expression="HasCategory('Table')" />
+      <Setter Property="Background" Value="#FFC0C0C0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Schema" ValueLabel="True">
+      <Condition Expression="HasCategory('Schema')" />
+      <Setter Property="Background" Value="#FF7F9169" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field Primary" ValueLabel="True">
+      <Condition Expression="HasCategory('Field Primary')" />
+      <Setter Property="Background" Value="#FF008000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field Optional" ValueLabel="True">
+      <Condition Expression="HasCategory('Field Optional')" />
+      <Setter Property="Background" Value="#FF808040" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field Foreign" ValueLabel="True">
+      <Condition Expression="HasCategory('Field Foreign')" />
+      <Setter Property="Background" Value="#FF8080FF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="True">
+      <Condition Expression="HasCategory('Field')" />
+      <Setter Property="Background" Value="#FFC0A000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Database" ValueLabel="True">
+      <Condition Expression="HasCategory('Database')" />
+      <Setter Property="Background" Value="#FFFFFFFF" />
+    </Style>
+  </Styles>
+</DirectedGraph>

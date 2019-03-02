@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <Authors>Sébastien Pertus, Gentledepp</Authors>
+    <Company>Microsoft</Company>
+    <Title>Dotmim.Sync.Web.Server</Title>
+    <Description>Proxy to be able to Sync through an ASP.NET CORE application. 
+Can't work without a Server provider, you have to choose an existing one to be able to work with the Proxy</Description>
+    <PackageProjectUrl>https://mimetis.github.io/Dotmim.Sync/</PackageProjectUrl>
+    <PackageTags>Dotmim.Sync, ASP.NET, ASP.NET Core, ASP.NET Core Web Sync Proxy, .Net Standard 2.0, Sync, Synchronization, Sync Framework</PackageTags>
+    <AssemblyName>Dotmim.Sync.Web.Server</AssemblyName>
+    <RootNamespace>Dotmim.Sync.Web.Server</RootNamespace>
+    <VersionSuffix>$(VersionSuffix)</VersionSuffix>
+    <Version>0.3.0</Version>
+    <Version Condition=" '$(VersionSuffix)' != '' ">$(Version)-$(VersionSuffix)</Version>
+  </PropertyGroup>
+
+  <!--generate NUGET package including symbols ans source on each release build -->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSource>True</IncludeSource>
+    <IncludeSymbols>True</IncludeSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+    <DefineConstants />
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="2.2.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Dotmim.Sync.Core\Dotmim.Sync.Core.csproj" />
+    <ProjectReference Include="..\Dotmim.Sync.Web.Client\Dotmim.Sync.Web.Client.csproj" />
+  </ItemGroup>
+</Project>
