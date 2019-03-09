@@ -1,0 +1,8 @@
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.MySQL\bin\Debug\netcoreapp2.2\Dotmim.Sync.MySQL.deps.json
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.MySQL\bin\Debug\netcoreapp2.2\Dotmim.Sync.MySQL.dll
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.MySQL\bin\Debug\netcoreapp2.2\Dotmim.Sync.Core.dll
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.MySQL\bin\Debug\netcoreapp2.2\Dotmim.Sync.Core.pdb
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.MySQL\obj\Debug\netcoreapp2.2\Dotmim.Sync.MySQL.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.MySQL\obj\Debug\netcoreapp2.2\Dotmim.Sync.MySQL.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.MySQL\obj\Debug\netcoreapp2.2\Dotmim.Sync.MySQL.AssemblyInfo.cs
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.MySQL\obj\Debug\netcoreapp2.2\Dotmim.Sync.MySQL.csproj.CopyComplete

@@ -28,9 +28,9 @@ namespace Dotmim.Sync.SampleWebServer.Controllers
             // Get the underline local provider
             var provider = webProxyServer.GetLocalProvider(this.HttpContext);
 
-            /*provider.SetConfiguration(c => c.Filters.Add("Customer", "CustomerID"));
+            //provider.SetConfiguration(c => c.Filters.Add("Customer", "CustomerID"));
 
-            provider.InterceptApplyChangesFailed(e =>
+           /* provider.InterceptApplyChangesFailed(e =>
             {
                 //Resolve conflict by specifying merged row
                 if (e.Conflict.RemoteRow.Table.TableName == "ProductModel")

@@ -14,8 +14,6 @@ using Microsoft.Net.Http.Headers;
 using System.Net.Http.Headers;
 #endif
 
-
-
 namespace Dotmim.Sync.Web.Client
 {
     /// <summary>
@@ -201,7 +199,6 @@ namespace Dotmim.Sync.Web.Client
             }
         }
 
-
         // This code added to correctly implement the disposable pattern.
         public void Dispose()
         {
@@ -209,7 +206,5 @@ namespace Dotmim.Sync.Web.Client
             Dispose(true);
         }
         #endregion
-
-
     }
 }

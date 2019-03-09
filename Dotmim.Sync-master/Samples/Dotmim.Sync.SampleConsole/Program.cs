@@ -24,8 +24,8 @@ internal class Program
     public static string serverDbName = "Server";
     public static string clientDbName = "Client";
 
-    //const string sqlConnString = @"Data Source=LAPTOP-JKSOH6L3\SQLEXPRESS;Initial Catalog=AdventureWorks;Integrated Security=true";
-    const string sqlConnString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=AdventureWorks;Integrated Security=true";
+    const string sqlConnString = @"Data Source=LAPTOP-JKSOH6L3;Initial Catalog=AdventureWorks;Integrated Security=true";
+    //const string sqlConnString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=AdventureWorks;Integrated Security=true";
 
 
     const string sqliteConnString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=advworks.sqlite;Integrated Security=true";
@@ -41,11 +41,11 @@ internal class Program
     private static void Main(string[] args)
     {
        //SynchronizeExistingTablesAsync().GetAwaiter().GetResult();
-       //TestSyncThroughWebApi().GetAwaiter().GetResult();
+       TestSyncThroughWebApi().GetAwaiter().GetResult();
         //SynchronizeOSAsync().GetAwaiter().GetResult();
-         SyncHttpThroughKestellAsync().GetAwaiter().GetResult();
+        // SyncHttpThroughKestellAsync().GetAwaiter().GetResult();
         //SynchronizeAsync().GetAwaiter().GetResult();
-        //RunAsync().GetAwaiter().GetResult();
+       // RunAsync().GetAwaiter().GetResult();
         Console.ReadLine();
     }
 
@@ -134,7 +134,6 @@ internal class Program
                 Console.WriteLine(e.Message);
             }
 
-
             //Console.WriteLine("Sync Ended. Press a key to start again, or Escapte to end");
         } while (Console.ReadKey().Key != ConsoleKey.Escape);
 
@@ -200,13 +199,13 @@ internal class Program
             c["CustomerAddress"].Schema = SyncDirection.DownloadOnly;
         });*/
 
-       /*await clientProvider.ProvisionAsync(tables,
+        /*await clientProvider.ProvisionAsync(tables,
             SyncProvision.StoredProcedures
            | SyncProvision.TrackingTable
-           | SyncProvision.Triggers);*/
+           | SyncProvision.Triggers);
 
 
-         /*await clientProvider.DeprovisionAsync(tables,
+        await clientProvider.DeprovisionAsync(tables,
             SyncProvision.StoredProcedures
            | SyncProvision.TrackingTable
            | SyncProvision.Triggers);*/
@@ -215,13 +214,11 @@ internal class Program
         var progress = new Progress<ProgressArgs>(s => Console.WriteLine($"[client]: {s.Context.SyncStage}:\t{s.Message}"));
         var progressS = new Progress<ProgressArgs>(s => Console.WriteLine($"[server]: {s.Context.SyncStage}:\t{s.Message}"));
 
-
         /*Server winner of any conflict - Server Wins*/
         agent.SetConfiguration(c =>
         {
             c.ConflictResolutionPolicy = ConflictResolutionPolicy.ServerWins;
         });
-
 
         // Setting configuration options
         agent.SetConfiguration(s =>
@@ -246,7 +243,6 @@ internal class Program
             opt.UseVerboseErrors = false;
         });
 
-
         /*agent.SetOptions(opt =>
         {
             opt.BatchDirectory = Path.Combine(SyncOptions.GetDefaultUserBatchDiretory(), "client");
@@ -258,7 +254,7 @@ internal class Program
         { 
         if (e.Conflict.RemoteRow.Table.TableName == "Product")
         {
-                e.Action = (int)e.Conflict.RemoteRow["ProductModelID"] == 6 ? ConflictResolution.ClientWins : ConflictResolution.ServerWins;
+                e.Action = (int)e.Conflict.RemoteRow["ProductModelID"] == 20 ? ConflictResolution.ClientWins : ConflictResolution.ServerWins;
         }
          });
 
@@ -283,15 +279,13 @@ internal class Program
         });
 
         //On Server Side to generate required stored procedures - Add Filter
-        agent.SetConfiguration(c => c.Filters.Add("Customers","CustomerID"));
+        agent.SetConfiguration(c => c.Filters.Add("Customer","CustomerID"));
 
-
-        SyncConfiguration config = new SyncConfiguration(new[] { "Customer" });
+        var config = new SyncConfiguration(new[] { "Customer" });
         config.Filters.Add("Customer", "NameStyle");
 
         //Customers when namestyle = 0 are synchronized
-        agent.Parameters.Add("Product", "Color","Black");
-
+        agent.Parameters.Add("Address", "AddressID", 1);
 
         agent.LocalProvider.InterceptApplyChangesFailed(e =>
         {
@@ -306,7 +300,6 @@ internal class Program
     conf.Add(new string[] { "ServiceTickets" })
 }));*/
 
-
          var remoteProvider = agent.RemoteProvider as CoreProvider;
 
         var dpAction = new Action<DatabaseProvisionedArgs>(args =>
@@ -320,30 +313,25 @@ internal class Program
             cmd.CommandText = sql;
 
             cmd.ExecuteNonQuery();
-
         });
 
         remoteProvider.InterceptDatabaseProvisioned(dpAction);
 
         agent.LocalProvider.InterceptDatabaseProvisioned(dpAction);
-
-       
+        
         agent.LocalProvider.InterceptTableChangesSelected((args) =>
         {
             Console.WriteLine($"Changes selected from table {args.TableChangesSelected.TableName}: ");
             Console.WriteLine($"\tInserts:{args.TableChangesSelected.Inserts}: ");
             Console.WriteLine($"\tUpdates: {args.TableChangesSelected.Updates}: ");
             Console.WriteLine($"\tDeletes: {args.TableChangesSelected.Deletes}: ");
-
         });
-
 
         /*Detailed Logs*/
         agent.LocalProvider.InterceptTableChangesSelecting((args) =>
         {
             Console.WriteLine($"Get changes for table {args.TableName}");
         });
-
 
         /*Intercept Stages - Not synchronize a table*/
        /* agent.LocalProvider.InterceptTableChangesApplying((args) =>
@@ -368,7 +356,6 @@ internal class Program
                 Console.WriteLine("\n");
                 var s2 = await agent.SynchronizeAsync(progressS);
                 
-
                 // Write results
                 Console.WriteLine(s1);//Client 
                 Console.WriteLine("\n");
@@ -385,10 +372,11 @@ internal class Program
         Console.WriteLine("End");
     }
 
-
-
-    private static async Task SynchronizeOSAsync()
+    private static async Task SynchronizeOSAsync()   
     {
+        string sqliteName = "advworks.sqlite";
+        //string cName = sqlConnString;
+
         // Create 2 Sql Sync providers
         //var serverProvider = new SqlSyncProvider(DbHelper.GetDatabaseConnectionString("OptionsServer"));
 
@@ -396,9 +384,17 @@ internal class Program
         //var clientProvider = new SqlSyncProvider(DbHelper.GetDatabaseConnectionString(sqlConnString));
         //var clientProvider = new SqlSyncProvider(DbHelper.GetDatabaseConnectionString(clientDbName));
 
+        //var sqliteSync = new SqliteSyncProvider("advworks.sqlite");
+
 
         var serverProvider = new SqlSyncProvider(DbHelper.GetDatabaseConnectionString(sqlConnString));
-        var clientProvider = new SqlSyncProvider(DbHelper.GetDatabaseConnectionString(sqliteConnString));
+
+        //var clientProvider = new SqlSyncProvider(DbHelper.GetDatabaseConnectionString(sqliteConnString));
+        var clientProvider = new SqlSyncProvider(DbHelper.GetDatabaseConnectionString(sqliteName));
+        //var clientProvider = new SqliteSyncProvider(DbHelper.GetDatabaseConnectionString(sqliteName));
+        //var clientProvider = new SqliteSyncProvider(sqliteName);
+        //var clientProvider = new SqlSyncProvider(sqliteName);
+        //var clientProvider = new SqliteSyncProvider("advworks.sqlite");
 
         // Tables involved in the sync process:
         //var tables = new string[] { "ObjectSettings", "ObjectSettingValues" };
@@ -427,28 +423,27 @@ internal class Program
                 Console.WriteLine(e.Message);
             }
 
-
             //Console.WriteLine("Sync Ended. Press a key to start again, or Escapte to end");
         } while (Console.ReadKey().Key != ConsoleKey.Escape);
 
         Console.WriteLine("End");
     }
 
-
-
-
     public static async Task SyncHttpThroughKestellAsync()
     {
-        string cName = "advworks.sqlite";
+        string sName = "advworks.sqlite";
 
         // server provider
         //var serverProvider = new SqlSyncProvider(DbHelper.GetDatabaseConnectionString(serverDbName));
-        var serverProvider = new SqlSyncProvider(DbHelper.GetDatabaseConnectionString(sqlConnString));
+        //var serverProvider = new SqliteSyncProvider(sName);
+        var serverProvider = new SqlSyncProvider(DbHelper.GetDatabaseConnectionString(sName));
+        // var serverProvider = new SqlSyncProvider(DbHelper.GetDatabaseConnectionString(sqlConnString));
 
         // client provider
-       // var clientProvider = new SqliteSyncProvider(DbHelper.GetDatabaseConnectionString(sqliteConnString));
-        var clientProvider = new SqliteSyncProvider(DbHelper.GetDatabaseConnectionString(cName));
-        // var clientProvider = new SqlSyncProvider(DbHelper.GetDatabaseConnectionString(sqliteConnString));
+        // var clientProvider = new SqliteSyncProvider(DbHelper.GetDatabaseConnectionString(sqliteConnString));
+        //var clientProvider = new SqliteSyncProvider(DbHelper.GetDatabaseConnectionString(cName));
+        //var clientProvider = new SqliteSyncProvider(sName);
+        var clientProvider = new SqlSyncProvider(DbHelper.GetDatabaseConnectionString(sqlConnString));
 
         // proxy client provider 
         var proxyClientProvider = new WebProxyClientProvider();
@@ -456,11 +451,9 @@ internal class Program
         //await DbHelper.EnsureDatabasesAsync(sqlConnString);
         //await DbHelper.EnsureDatabasesAsync(sqliteConnString);
      
-        var tables = new string[] {"ProductCategory",
-                "ProductModel",
-                "Product",
-                "Address", "Customer", "CustomerAddress",
-                "SalesOrderHeader", "SalesOrderDetail" };
+        var tables = new string[] {
+                "Address", "Customer","CustomerAddress",
+                            "SalesOrderHeader", "SalesOrderDetail" };
 
         var configuration = new Action<SyncConfiguration>(conf =>
         {
@@ -571,7 +564,6 @@ internal class Program
             });
             await server.Run(serverHandler, clientHandler);
         }
-
     }
 
     /// <summary>
@@ -579,15 +571,13 @@ internal class Program
     /// </summary>
     private static async Task TestSyncThroughWebApi()
     {
-      
-        string sName = sqlConnString;
+        string cName = sqlConnString;
         //string cName = "advworks.sqlite";
     
         //await DbHelper.EnsureDatabasesAsync(sName);
        // await DbHelper.EnsureDatabasesAsync(cName);
 
-  
-        var clientProvider = new SqlSyncProvider(DbHelper.GetDatabaseConnectionString(sName));
+        var clientProvider = new SqlSyncProvider(DbHelper.GetDatabaseConnectionString(cName));
         //var clientProvider = new SqlSyncProvider(DbHelper.GetDatabaseConnectionString(sqlConnString));
 
         /*Client*/
@@ -601,7 +591,6 @@ internal class Program
       //var agent = new SyncAgent(sqliteSync, proxyClientProvider);//SQLite Client to SQLite Server
       
         //agent.ApplyChangedFailed += Agent_ApplyChangedFailed;
- 
       
         var progress = new Progress<ProgressArgs>(pa => Console.WriteLine($"{pa.Context.SessionId} - {pa.Context.SyncStage}\t {pa.Message}"));
         var progressS = new Progress<ProgressArgs>(pa => Console.WriteLine($"{pa.Context.SessionId} - {pa.Context.SyncStage}\t {pa.Message}"));
@@ -683,7 +672,6 @@ internal class Program
 
     public void AddingDatas(DbConnection connection)
     {
-
         var command = connection.CreateCommand();
         command.CommandText = $@"INSERT INTO [ServiceTickets] ([ServiceTicketID], [Title], [StatusValue], [Opened]) 
                                 VALUES (@ServiceTicketID, @Title, @StatusValue, @Opened)";
@@ -735,6 +723,4 @@ internal class Program
     {
         e.Action = ConflictResolution.ClientWins;     
     }
-
-
 }

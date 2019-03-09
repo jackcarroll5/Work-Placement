@@ -1,0 +1,17 @@
+C:\Users\Jack\Desktop\WebAPITester\dotmet-sync\bin\Debug\netcoreapp2.2\dotnet-sync.deps.json
+C:\Users\Jack\Desktop\WebAPITester\dotmet-sync\bin\Debug\netcoreapp2.2\dotnet-sync.runtimeconfig.json
+C:\Users\Jack\Desktop\WebAPITester\dotmet-sync\bin\Debug\netcoreapp2.2\dotnet-sync.runtimeconfig.dev.json
+C:\Users\Jack\Desktop\WebAPITester\dotmet-sync\bin\Debug\netcoreapp2.2\dotnet-sync.dll
+C:\Users\Jack\Desktop\WebAPITester\dotmet-sync\obj\Debug\netcoreapp2.2\dotnet-sync.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\WebAPITester\dotmet-sync\obj\Debug\netcoreapp2.2\dotnet-sync.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\WebAPITester\dotmet-sync\obj\Debug\netcoreapp2.2\dotnet-sync.AssemblyInfo.cs
+C:\Users\Jack\Desktop\WebAPITester\dotmet-sync\bin\Debug\netcoreapp2.2\Dotmim.Sync.Core.dll
+C:\Users\Jack\Desktop\WebAPITester\dotmet-sync\bin\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.dll
+C:\Users\Jack\Desktop\WebAPITester\dotmet-sync\bin\Debug\netcoreapp2.2\Dotmim.Sync.SqlServer.dll
+C:\Users\Jack\Desktop\WebAPITester\dotmet-sync\bin\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.dll
+C:\Users\Jack\Desktop\WebAPITester\dotmet-sync\bin\Debug\netcoreapp2.2\Dotmim.Sync.Core.pdb
+C:\Users\Jack\Desktop\WebAPITester\dotmet-sync\bin\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.pdb
+C:\Users\Jack\Desktop\WebAPITester\dotmet-sync\bin\Debug\netcoreapp2.2\Dotmim.Sync.SqlServer.pdb
+C:\Users\Jack\Desktop\WebAPITester\dotmet-sync\bin\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.pdb
+C:\Users\Jack\Desktop\WebAPITester\dotmet-sync\obj\Debug\netcoreapp2.2\dotnet-sync.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\WebAPITester\dotmet-sync\obj\Debug\netcoreapp2.2\dotnet-sync.csproj.CopyComplete
