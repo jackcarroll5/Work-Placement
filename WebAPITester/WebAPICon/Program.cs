@@ -25,7 +25,10 @@ namespace WebAPIConsoleTest
         const string sqlConnString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=AdventureWorks;Integrated Security=true";
 
         //const string sqliteConnString = @"Data Source=LAPTOP-JKSOH6L3\advworks.sqlite;Integrated Security=true";
-        const string sqliteConnString = @"Data Source=LAPTOP-JKSOH6L3;Initial Catalog=advworks.sqlite;Integrated Security=true";
+        //const string sqliteConnString = @"Data Source=LAPTOP-JKSOH6L3;Initial Catalog=advworks.sqlite;Integrated Security=true";
+        const string sqliteConnString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=advworks.sqlite;Integrated Security=true";
+        //const string sqliteConnString = @"Data Source=(localdb)\MSSQLLocalDB;Integrated Security=true";
+        //const string sqliteConnString = @"Data Source=(localdb)\MSSQLLocalDB\advworks.sqlite;Initial Catalog=advworks.sqlite;Integrated Security=true";
         //const string sqliteConnString = @"Data Source=LAPTOP-JKSOH6L3;Integrated Security=true";
 
         public static string[] allTables = new string[] {"ProductCategory","Address",
@@ -42,16 +45,19 @@ namespace WebAPIConsoleTest
 
         private static async Task TestWebAPISync()
         {
+            //string cName = sqliteConnString;
             string cName = "advworks.sqlite";
 
-            //var clientProvider = new SqliteSyncProvider(DbHelper.GetDatabaseConnectionString(sqliteConnString));
-            //var clientProvider = new SqliteSyncProvider(DbHelper.GetDatabaseConnectionString(cName));
-            //var clientProvider = new SqliteSyncProvider(DbHelper.GetDatabaseConnectionString("advworks.sqlite"));
-            var clientProvider = new SqliteSyncProvider(cName);
+            var sqliteSyncClient = new SqlSyncProvider(DbHelper.GetDatabaseConnectionString(sqliteConnString));//This method works perfectly.
+            var clientProvider = new SqliteSyncProvider(cName);//This method works - Almost
+
+            //var clientProvider = new SqliteSyncProvider(DbHelper.GetDatabaseConnectionString(sqliteConnString)); //Doesn't work
+            //var clientProvider = new SqliteSyncProvider(DbHelper.GetDatabaseConnectionString(cName)); //Doesn't work
+            //var clientProvider = new SqliteSyncProvider(sqliteConnString);  //Doesn't work
 
             var proxyClientProvider = new WebProxyClientProvider(new Uri("http://localhost:58515/api/Syncing"));
         
-            var agent = new SyncAgent(clientProvider, proxyClientProvider);
+            var agent = new SyncAgent(sqliteSyncClient, proxyClientProvider); //SQLite Client to SQL Server
 
             Console.WriteLine("Press a key to start (be sure Web API is running ...)");
             Console.ReadKey();
@@ -61,13 +67,16 @@ namespace WebAPIConsoleTest
                 Console.Clear();
                 Console.WriteLine("Web Sync beginning");
                 try
-                {                        
-                    var s = await agent.SynchronizeAsync();
-                    //var s = await agent.SynchronizeAsync();
-                    // var c = await agent.SynchronizeAsync(progressS);
+                {
 
-                    Console.WriteLine(s);
-                    //Console.WriteLine(c);
+                    var progressS = new Progress<ProgressArgs>(pa => Console.WriteLine($"{pa.Context.SessionId} - {pa.Context.SyncStage}\t {pa.Message}"));
+
+                   // var s = await agent.SynchronizeAsync();
+                    //var s = await agent.SynchronizeAsync();
+                    var c = await agent.SynchronizeAsync(progressS);
+
+                    //Console.WriteLine(s);
+                    Console.WriteLine(c);
                 }
                 catch (SyncException e)
                 {

@@ -31,9 +31,7 @@ namespace Dotmim.Sync.SqlServer
             if (String.IsNullOrEmpty(builder.ConnectionString))
                 throw new Exception("You have to provide parameters to the Sql builder to be able to construct a valid connection string.");
 
-            
-
-            this.ConnectionString = builder.ConnectionString;
+              this.ConnectionString = builder.ConnectionString;
         }
 
         public override string ProviderTypeName
@@ -59,8 +57,6 @@ namespace Dotmim.Sync.SqlServer
 
         }
 
-
-
         /// <summary>
         /// Gets or sets the Metadata object which parse Sql server types
         /// </summary>
@@ -79,6 +75,7 @@ namespace Dotmim.Sync.SqlServer
 
             }
         }
+
         public override ICache CacheManager
         {
             get
@@ -114,6 +111,5 @@ namespace Dotmim.Sync.SqlServer
         public override DbScopeBuilder GetScopeBuilder() => new SqlScopeBuilder();
         public override DbBuilder GetDatabaseBuilder(DmTable tableDescription) => new SqlBuilder(tableDescription);
         public override DbManager GetDbManager(string tableName) => new SqlManager(tableName);
-
     }
 }

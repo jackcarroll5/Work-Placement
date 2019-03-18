@@ -11,10 +11,23 @@ namespace Dotmim.Sync.SampleConsole
     {
 
         public static string GetDatabaseConnectionString(string dbName) =>
-         $"Data Source=(localdb)\\mssqllocaldb;Initial Catalog={dbName};Integrated Security=true;";
-         //$"Data Source=(localdb)\\mssqllocaldb\\{dbName};Initial Catalog={dbName};Integrated Security=true;";
-          //$"Data Source=(localdb)\\mssqllocaldb\\{dbName};Integrated Security=true;";
-          //$"Data Source=(localdb)\\mssqllocaldb\\{dbName};";
+        //$"Data Source=(localdb)\\mssqllocaldb;Initial Catalog={dbName};Integrated Security=true;";
+        $"Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog={dbName};Integrated Security=true;";  
+        //$"Data Source=(localdb)\\MSSQLLocalDB\\{dbName};Initial Catalog={dbName};Integrated Security=true;";
+        //$"Data Source=(localdb)\\MSSQLLocalDB\\{dbName};Integrated Security=true;";
+        //$"Data Source=(localdb)\\MSSQLLocalDB\\{dbName};";
+        //$"Data Source=(localdb)\\MSSQLLocalDB\\{dbName};Integrated Security=true;";
+        // $"Data Source=(localdb)\\mssqllocaldb\\{dbName};Initial Catalog={dbName};Integrated Security=true;";
+        // $"Data Source=(localdb)\\mssqllocaldb\\{dbName};Initial Catalog={dbName};";
+        //$"Data Source=(localdb)\\mssqllocaldb\\{dbName};Integrated Security=true;";
+        // $"Data Source=(localdb)\\mssqllocaldb\\{dbName};";
+        //$"Data Source=(localdb)\\mssqllocaldb;";
+        //$"Data Source=(localdb)\\mssqllocaldb;Initial Catalog={dbName};";
+        //$"Data Source=laptop-jksoh6l3\\{dbName};";
+        //$"Data Source=(localdb)\\laptop-jksoh6l3;Initial Catalog={dbName};";
+        //$"Data Source=(localdb)\\laptop-jksoh6l3\\{dbName};Integrated Security=true;";
+        //$"Data Source=laptop-jksoh6l3\\{dbName};Initial Catalog={dbName};Integrated Security=true;";
+        //$"Data Source=(localdb)\\laptop-jksoh6l3;Initial Catalog={dbName};Integrated Security=true;";
 
         /// <summary>
         /// create a server database with datas and an empty client database
