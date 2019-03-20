@@ -1,0 +1,13 @@
+C:\Users\Jack\Desktop\PhoneWords\PhoneWords\PhoneWords\obj\Debug\netstandard2.0\PhoneWords.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\PhoneWords\PhoneWords\PhoneWords\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jack\Desktop\PhoneWords\PhoneWords\PhoneWords\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jack\Desktop\PhoneWords\PhoneWords\PhoneWords\obj\Debug\netstandard2.0\PhoneWords.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\PhoneWords\PhoneWords\PhoneWords\obj\Debug\netstandard2.0\PhoneWords.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\PhoneWords\PhoneWords\PhoneWords\obj\Debug\netstandard2.0\PhoneWords.AssemblyInfo.cs
+C:\Users\Jack\Desktop\PhoneWords\PhoneWords\PhoneWords\bin\Debug\netstandard2.0\PhoneWords.deps.json
+C:\Users\Jack\Desktop\PhoneWords\PhoneWords\PhoneWords\bin\Debug\netstandard2.0\PhoneWords.dll
+C:\Users\Jack\Desktop\PhoneWords\PhoneWords\PhoneWords\bin\Debug\netstandard2.0\PhoneWords.pdb
+C:\Users\Jack\Desktop\PhoneWords\PhoneWords\PhoneWords\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jack\Desktop\PhoneWords\PhoneWords\PhoneWords\obj\Debug\netstandard2.0\PhoneWords.dll
+C:\Users\Jack\Desktop\PhoneWords\PhoneWords\PhoneWords\obj\Debug\netstandard2.0\PhoneWords.pdb
+C:\Users\Jack\Desktop\PhoneWords\PhoneWords\PhoneWords\obj\Debug\netstandard2.0\CallHistoryPage.xaml.g.cs
