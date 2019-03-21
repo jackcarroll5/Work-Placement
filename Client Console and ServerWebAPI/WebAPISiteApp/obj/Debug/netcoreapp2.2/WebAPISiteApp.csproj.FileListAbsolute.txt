@@ -1,0 +1,39 @@
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\obj\Debug\netcoreapp2.2\WebAPISiteApp.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\obj\Debug\netcoreapp2.2\WebAPISiteApp.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\obj\Debug\netcoreapp2.2\WebAPISiteApp.RazorAssemblyInfo.cache
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\obj\Debug\netcoreapp2.2\WebAPISiteApp.RazorAssemblyInfo.cs
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\obj\Debug\netcoreapp2.2\WebAPISiteApp.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\obj\Debug\netcoreapp2.2\WebAPISiteApp.AssemblyInfo.cs
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\bin\Debug\netcoreapp2.2\WebAPISiteApp.deps.json
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\bin\Debug\netcoreapp2.2\WebAPISiteApp.runtimeconfig.json
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\bin\Debug\netcoreapp2.2\WebAPISiteApp.runtimeconfig.dev.json
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\bin\Debug\netcoreapp2.2\WebAPISiteApp.dll
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\bin\Debug\netcoreapp2.2\WebAPISiteApp.pdb
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\bin\Debug\netcoreapp2.2\Dotmim.Sync.Core.dll
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\bin\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.dll
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\bin\Debug\netcoreapp2.2\Dotmim.Sync.SqlServer.dll
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\bin\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.dll
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\bin\Debug\netcoreapp2.2\Dotmim.Sync.Web.Server.dll
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\bin\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.pdb
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\bin\Debug\netcoreapp2.2\Dotmim.Sync.SqlServer.pdb
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\bin\Debug\netcoreapp2.2\Dotmim.Sync.Web.Server.pdb
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\bin\Debug\netcoreapp2.2\Dotmim.Sync.Core.pdb
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\bin\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.pdb
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\obj\Debug\netcoreapp2.2\WebAPISiteApp.RazorTargetAssemblyInfo.cache
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\obj\Debug\netcoreapp2.2\WebAPISiteApp.csproj.CopyComplete
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\obj\Debug\netcoreapp2.2\WebAPISiteApp.dll
+C:\Users\Jack\Desktop\WebAPITester\WebAPISiteApp\obj\Debug\netcoreapp2.2\WebAPISiteApp.pdb
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\WebAPISiteApp\bin\Debug\netcoreapp2.2\WebAPISiteApp.deps.json
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\WebAPISiteApp\bin\Debug\netcoreapp2.2\WebAPISiteApp.runtimeconfig.json
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\WebAPISiteApp\bin\Debug\netcoreapp2.2\WebAPISiteApp.runtimeconfig.dev.json
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\WebAPISiteApp\bin\Debug\netcoreapp2.2\WebAPISiteApp.dll
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\WebAPISiteApp\bin\Debug\netcoreapp2.2\WebAPISiteApp.pdb
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\WebAPISiteApp\obj\Debug\netcoreapp2.2\WebAPISiteApp.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\WebAPISiteApp\obj\Debug\netcoreapp2.2\WebAPISiteApp.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\WebAPISiteApp\obj\Debug\netcoreapp2.2\WebAPISiteApp.RazorAssemblyInfo.cache
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\WebAPISiteApp\obj\Debug\netcoreapp2.2\WebAPISiteApp.RazorAssemblyInfo.cs
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\WebAPISiteApp\obj\Debug\netcoreapp2.2\WebAPISiteApp.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\WebAPISiteApp\obj\Debug\netcoreapp2.2\WebAPISiteApp.AssemblyInfo.cs
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\WebAPISiteApp\obj\Debug\netcoreapp2.2\WebAPISiteApp.RazorTargetAssemblyInfo.cache
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\WebAPISiteApp\obj\Debug\netcoreapp2.2\WebAPISiteApp.dll
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\WebAPISiteApp\obj\Debug\netcoreapp2.2\WebAPISiteApp.pdb

@@ -1,0 +1,24 @@
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Web.Client\obj\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Web.Client\obj\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Web.Client\obj\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Web.Client\obj\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.AssemblyInfo.cs
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Web.Client\bin\Debug\netcoreapp2.2\Dotmim.Sync.Core.dll
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Web.Client\bin\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.deps.json
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Web.Client\bin\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.dll
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Web.Client\bin\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.pdb
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Web.Client\bin\Debug\netcoreapp2.2\Dotmim.Sync.Core.pdb
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Web.Client\obj\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.csproj.CopyComplete
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Web.Client\obj\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.dll
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Web.Client\obj\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.pdb
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Web.Client\bin\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.deps.json
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Web.Client\bin\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.dll
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Web.Client\bin\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.pdb
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Web.Client\bin\Debug\netcoreapp2.2\Dotmim.Sync.Core.dll
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Web.Client\bin\Debug\netcoreapp2.2\Dotmim.Sync.Core.pdb
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Web.Client\obj\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Web.Client\obj\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Web.Client\obj\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Web.Client\obj\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.AssemblyInfo.cs
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Web.Client\obj\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.csproj.CopyComplete
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Web.Client\obj\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.dll
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Web.Client\obj\Debug\netcoreapp2.2\Dotmim.Sync.Web.Client.pdb

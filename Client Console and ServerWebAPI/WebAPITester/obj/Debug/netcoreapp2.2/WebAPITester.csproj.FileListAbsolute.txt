@@ -1,0 +1,11 @@
+C:\Users\Jack\Desktop\WebAPITester\WebAPITester\bin\Debug\netcoreapp2.2\WebAPITester.deps.json
+C:\Users\Jack\Desktop\WebAPITester\WebAPITester\bin\Debug\netcoreapp2.2\WebAPITester.runtimeconfig.json
+C:\Users\Jack\Desktop\WebAPITester\WebAPITester\bin\Debug\netcoreapp2.2\WebAPITester.runtimeconfig.dev.json
+C:\Users\Jack\Desktop\WebAPITester\WebAPITester\bin\Debug\netcoreapp2.2\WebAPITester.dll
+C:\Users\Jack\Desktop\WebAPITester\WebAPITester\obj\Debug\netcoreapp2.2\WebAPITester.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\WebAPITester\WebAPITester\obj\Debug\netcoreapp2.2\WebAPITester.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\WebAPITester\WebAPITester\obj\Debug\netcoreapp2.2\WebAPITester.RazorAssemblyInfo.cache
+C:\Users\Jack\Desktop\WebAPITester\WebAPITester\obj\Debug\netcoreapp2.2\WebAPITester.RazorAssemblyInfo.cs
+C:\Users\Jack\Desktop\WebAPITester\WebAPITester\obj\Debug\netcoreapp2.2\WebAPITester.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\WebAPITester\WebAPITester\obj\Debug\netcoreapp2.2\WebAPITester.AssemblyInfo.cs
+C:\Users\Jack\Desktop\WebAPITester\WebAPITester\obj\Debug\netcoreapp2.2\WebAPITester.RazorTargetAssemblyInfo.cache
