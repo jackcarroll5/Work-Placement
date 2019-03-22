@@ -1,0 +1,24 @@
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Sqlite\obj\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Sqlite\obj\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Sqlite\obj\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Sqlite\obj\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.AssemblyInfo.cs
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Sqlite\bin\Debug\netcoreapp2.2\Dotmim.Sync.Core.dll
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Sqlite\bin\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.deps.json
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Sqlite\bin\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.dll
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Sqlite\bin\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.pdb
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Sqlite\bin\Debug\netcoreapp2.2\Dotmim.Sync.Core.pdb
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Sqlite\obj\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.csproj.CopyComplete
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Sqlite\obj\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.dll
+C:\Users\Jack\Desktop\WebAPITester\Dotmim.Sync.Sqlite\obj\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.pdb
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Sqlite\bin\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.deps.json
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Sqlite\bin\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.dll
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Sqlite\bin\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.pdb
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Sqlite\bin\Debug\netcoreapp2.2\Dotmim.Sync.Core.dll
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Sqlite\bin\Debug\netcoreapp2.2\Dotmim.Sync.Core.pdb
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Sqlite\obj\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Sqlite\obj\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Sqlite\obj\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Sqlite\obj\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.AssemblyInfo.cs
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Sqlite\obj\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.csproj.CopyComplete
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Sqlite\obj\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.dll
+C:\Users\Jack\Desktop\Client Console and ServerWebAPI\Dotmim.Sync.Sqlite\obj\Debug\netcoreapp2.2\Dotmim.Sync.Sqlite.pdb
