@@ -1,0 +1,17 @@
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\obj\Debug\netstandard2.0\XamarinDotmim.SyncApp.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\obj\Debug\netstandard2.0\XamarinDotmim.SyncApp.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\obj\Debug\netstandard2.0\XamarinDotmim.SyncApp.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\obj\Debug\netstandard2.0\XamarinDotmim.SyncApp.AssemblyInfo.cs
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\bin\Debug\netstandard2.0\XamarinDotmim.SyncApp.deps.json
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\bin\Debug\netstandard2.0\XamarinDotmim.SyncApp.dll
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\bin\Debug\netstandard2.0\XamarinDotmim.SyncApp.pdb
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\obj\Debug\netstandard2.0\XamarinDotmim.SyncApp.dll
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\obj\Debug\netstandard2.0\XamarinDotmim.SyncApp.pdb
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\bin\Debug\netstandard2.0\Dotmim.Sync.Core.dll
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\bin\Debug\netstandard2.0\Dotmim.Sync.Sqlite.dll
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\bin\Debug\netstandard2.0\Dotmim.Sync.Sqlite.pdb
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\bin\Debug\netstandard2.0\Dotmim.Sync.Core.pdb
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\obj\Debug\netstandard2.0\XamarinDotmim.SyncApp.csproj.CopyComplete
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\XamarinDotmim.SyncApp\obj\Debug\netstandard2.0\XamlC.stamp

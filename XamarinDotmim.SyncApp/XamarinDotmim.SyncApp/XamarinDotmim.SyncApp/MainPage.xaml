@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinDotmim.SyncApp.MainPage"
+             Title="Xamarin Dotmim.Sync Application Test"
+              xmlns:local="clr-namespace:XamarinDotmim.SyncApp;assembly=XamarinDotmim.SyncApp"
+             BackgroundColor="Yellow">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+
+        <Button BackgroundColor="LightBlue"           
+                Text="Quit"
+                TextColor="Black"
+                HorizontalOptions="EndAndExpand"
+                Clicked="Quit_Button" />
+
+        <Label Text="Test Results"
+               TextColor="Black"
+               FontSize="50"
+               Font="Arial"
+               HorizontalOptions="CenterAndExpand"
+                Margin="20"/>
+
+        <Label Text = "Sync Context Details"
+               FontSize = "28"
+               TextColor="Black"
+               x:Name="Context"
+               Font = "Arial"
+                HorizontalOptions="Start"
+               Margin="30"/>
+
+        <Label Text = "Sync Progress - Agent Server"
+               FontSize = "28"
+               TextColor="Black"
+               x:Name="Progress"
+               Font = "Times New Roman"
+                HorizontalOptions="CenterAndExpand"
+                Margin="40"/>
+
+        <!--<Label Text = "Sync Progress - Agent Client"
+               FontSize = "28"
+               TextColor="Black"
+               x:Name="ProgressClient"
+               Font = "Times New Roman"
+                HorizontalOptions="CenterAndExpand"
+                Margin="40"/>-->
+
+        <Label Text = "Exception:(If it happens)"
+               FontSize = "28"
+               TextColor="Black"
+               x:Name="Exception"
+               Font = "Arial"
+                HorizontalOptions="Start"
+                Margin="20"/>
+
+
+        <Button BackgroundColor="Green"
+                 Clicked="Button_Clicked"
+                Text="Start Sync"
+                TextColor="Black"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                 Margin="20"/>
+    </StackLayout>
+</ContentPage>

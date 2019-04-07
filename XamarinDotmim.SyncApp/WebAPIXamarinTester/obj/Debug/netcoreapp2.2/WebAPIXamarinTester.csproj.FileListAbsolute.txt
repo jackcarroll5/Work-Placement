@@ -1,0 +1,14 @@
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\WebAPIXamarinTester\bin\Debug\netcoreapp2.2\WebAPIXamarinTester.deps.json
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\WebAPIXamarinTester\bin\Debug\netcoreapp2.2\WebAPIXamarinTester.runtimeconfig.json
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\WebAPIXamarinTester\bin\Debug\netcoreapp2.2\WebAPIXamarinTester.runtimeconfig.dev.json
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\WebAPIXamarinTester\bin\Debug\netcoreapp2.2\WebAPIXamarinTester.dll
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\WebAPIXamarinTester\bin\Debug\netcoreapp2.2\WebAPIXamarinTester.pdb
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\WebAPIXamarinTester\obj\Debug\netcoreapp2.2\WebAPIXamarinTester.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\WebAPIXamarinTester\obj\Debug\netcoreapp2.2\WebAPIXamarinTester.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\WebAPIXamarinTester\obj\Debug\netcoreapp2.2\WebAPIXamarinTester.RazorAssemblyInfo.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\WebAPIXamarinTester\obj\Debug\netcoreapp2.2\WebAPIXamarinTester.RazorAssemblyInfo.cs
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\WebAPIXamarinTester\obj\Debug\netcoreapp2.2\WebAPIXamarinTester.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\WebAPIXamarinTester\obj\Debug\netcoreapp2.2\WebAPIXamarinTester.AssemblyInfo.cs
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\WebAPIXamarinTester\obj\Debug\netcoreapp2.2\WebAPIXamarinTester.RazorTargetAssemblyInfo.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\WebAPIXamarinTester\obj\Debug\netcoreapp2.2\WebAPIXamarinTester.dll
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\WebAPIXamarinTester\obj\Debug\netcoreapp2.2\WebAPIXamarinTester.pdb

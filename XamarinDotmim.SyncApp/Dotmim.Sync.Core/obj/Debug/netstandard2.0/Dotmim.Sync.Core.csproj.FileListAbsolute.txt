@@ -1,0 +1,9 @@
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.Core\bin\Debug\netstandard2.0\Dotmim.Sync.Core.deps.json
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.Core\bin\Debug\netstandard2.0\Dotmim.Sync.Core.dll
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.Core\bin\Debug\netstandard2.0\Dotmim.Sync.Core.pdb
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.Core\obj\Debug\netstandard2.0\Dotmim.Sync.Core.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.Core\obj\Debug\netstandard2.0\Dotmim.Sync.Core.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.Core\obj\Debug\netstandard2.0\Dotmim.Sync.Core.AssemblyInfo.cs
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.Core\obj\Debug\netstandard2.0\Dotmim.Sync.Core.dll
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.Core\obj\Debug\netstandard2.0\Dotmim.Sync.Core.pdb
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.Core\obj\Debug\netstandard2.0\Dotmim.Sync.Core.csprojAssemblyReference.cache

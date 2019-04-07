@@ -1,0 +1,12 @@
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.Sqlite\bin\Debug\netstandard2.0\Dotmim.Sync.Sqlite.deps.json
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.Sqlite\bin\Debug\netstandard2.0\Dotmim.Sync.Sqlite.dll
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.Sqlite\bin\Debug\netstandard2.0\Dotmim.Sync.Sqlite.pdb
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.Sqlite\bin\Debug\netstandard2.0\Dotmim.Sync.Core.dll
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.Sqlite\bin\Debug\netstandard2.0\Dotmim.Sync.Core.pdb
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.Sqlite\obj\Debug\netstandard2.0\Dotmim.Sync.Sqlite.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.Sqlite\obj\Debug\netstandard2.0\Dotmim.Sync.Sqlite.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.Sqlite\obj\Debug\netstandard2.0\Dotmim.Sync.Sqlite.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.Sqlite\obj\Debug\netstandard2.0\Dotmim.Sync.Sqlite.AssemblyInfo.cs
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.Sqlite\obj\Debug\netstandard2.0\Dotmim.Sync.Sqlite.csproj.CopyComplete
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.Sqlite\obj\Debug\netstandard2.0\Dotmim.Sync.Sqlite.dll
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.Sqlite\obj\Debug\netstandard2.0\Dotmim.Sync.Sqlite.pdb
