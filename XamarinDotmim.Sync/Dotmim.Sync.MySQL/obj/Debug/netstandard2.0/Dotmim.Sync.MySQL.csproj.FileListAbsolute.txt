@@ -1,0 +1,6 @@
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.MySQL\bin\Debug\netstandard2.0\Dotmim.Sync.MySQL.deps.json
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.MySQL\bin\Debug\netstandard2.0\Dotmim.Sync.MySQL.dll
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.MySQL\obj\Debug\netstandard2.0\Dotmim.Sync.MySQL.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.MySQL\obj\Debug\netstandard2.0\Dotmim.Sync.MySQL.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.MySQL\obj\Debug\netstandard2.0\Dotmim.Sync.MySQL.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.MySQL\obj\Debug\netstandard2.0\Dotmim.Sync.MySQL.AssemblyInfo.cs

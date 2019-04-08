@@ -21,9 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotmim.Sync.SqlServer", "Do
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotmim.Sync.Web.Server", "Dotmim.Sync.Web.Server\Dotmim.Sync.Web.Server.csproj", "{01BF98C8-BA7B-4632-B965-813998456F63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotmim.Sync.Sqlite", "Dotmim.Sync.Sqlite\Dotmim.Sync.Sqlite.csproj", "{F804F8E5-C8F7-4646-9511-137A6F7BB1D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotmim.Sync.Sqlite", "Dotmim.Sync.Sqlite\Dotmim.Sync.Sqlite.csproj", "{F804F8E5-C8F7-4646-9511-137A6F7BB1D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotmim.Sync.MySQL", "Dotmim.Sync.MySQL\Dotmim.Sync.MySQL.csproj", "{82B0F67D-4BDD-4220-8D82-D7CD21853432}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotmim.Sync.MySQL", "Dotmim.Sync.MySQL\Dotmim.Sync.MySQL.csproj", "{82B0F67D-4BDD-4220-8D82-D7CD21853432}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

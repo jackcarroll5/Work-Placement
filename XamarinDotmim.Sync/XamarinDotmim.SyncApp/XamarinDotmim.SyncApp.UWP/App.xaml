@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="XamarinDotmim.SyncApp.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:XamarinDotmim.SyncApp.UWP"
+    RequestedTheme="Light">
+
+</Application>

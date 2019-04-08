@@ -8,6 +8,7 @@ using System.Diagnostics;
 using Xamarin.Forms;
 using Dotmim.Sync.Sqlite;
 using System.IO;
+using System.Reflection;
 
 namespace XamarinDotmim.SyncApp
 {
@@ -32,8 +33,9 @@ namespace XamarinDotmim.SyncApp
             //MainPage p = new MainPage();
 
             //string cName = "This PC\\Galaxy Tab A (2016)\\Card\\Android\\media\\adventworks.sqlite";
-            var cName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "adventworks.sqlite");
-            var sqliteSync = new SqliteSyncProvider(cName); ///data/data/com.companyname/files/.local/share/adventworks.sqlite
+            var cName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "ModelTest.sqlite");
+            var sqliteSync = new SqliteSyncProvider(cName); ///data/data/com.companyname/files/.local/share/adventworks.sqlite - Tablet (Originally)
+                                                            ///data/user/0/com.companyname/files/.local/share/adventworks.sqlite - Phone
 
             var proxyServerProvider = new WebProxyClientProvider(new Uri("http://10.14.17.198:53065/api/values"));
 

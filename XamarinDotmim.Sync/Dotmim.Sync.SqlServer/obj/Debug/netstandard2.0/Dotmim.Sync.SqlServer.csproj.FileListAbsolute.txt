@@ -1,0 +1,12 @@
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.SqlServer\bin\Debug\netstandard2.0\Dotmim.Sync.SqlServer.deps.json
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.SqlServer\bin\Debug\netstandard2.0\Dotmim.Sync.SqlServer.dll
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.SqlServer\obj\Debug\netstandard2.0\Dotmim.Sync.SqlServer.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.SqlServer\obj\Debug\netstandard2.0\Dotmim.Sync.SqlServer.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.SqlServer\obj\Debug\netstandard2.0\Dotmim.Sync.SqlServer.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.SqlServer\obj\Debug\netstandard2.0\Dotmim.Sync.SqlServer.AssemblyInfo.cs
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.SqlServer\bin\Debug\netstandard2.0\Dotmim.Sync.SqlServer.pdb
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.SqlServer\bin\Debug\netstandard2.0\Dotmim.Sync.Core.dll
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.SqlServer\bin\Debug\netstandard2.0\Dotmim.Sync.Core.pdb
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.SqlServer\obj\Debug\netstandard2.0\Dotmim.Sync.SqlServer.csproj.CopyComplete
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.SqlServer\obj\Debug\netstandard2.0\Dotmim.Sync.SqlServer.dll
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\Dotmim.Sync.SqlServer\obj\Debug\netstandard2.0\Dotmim.Sync.SqlServer.pdb

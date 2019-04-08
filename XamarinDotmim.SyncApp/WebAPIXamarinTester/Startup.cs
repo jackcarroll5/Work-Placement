@@ -39,11 +39,14 @@ namespace WebAPIXamarinTester
             var connectionString = Configuration["Data:(localdb)\\MSSQLLocalDB;Initial Catalog=AdventureWorks;Integrated Security=true;"];
 
             services.AddSyncServer<SqlSyncProvider>(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=AdventureWorks;Integrated Security=true;", c => {
-                var tables = new string[] {"ProductCategory",
+                /*var tables = new string[] {"ProductCategory",
                             "ProductModel",
                             "Product",
                             "Address", "Customer", "CustomerAddress",
-                            "SalesOrderHeader", "SalesOrderDetail" };
+                            "SalesOrderHeader", "SalesOrderDetail" };*/
+
+                var tables = new string[] {"Folder","Question" };
+
                 c.Add(tables);
                 c.ScopeInfoTableName = "tscopeinfo";
                 c.SerializationFormat = SerializationFormat.Binary;

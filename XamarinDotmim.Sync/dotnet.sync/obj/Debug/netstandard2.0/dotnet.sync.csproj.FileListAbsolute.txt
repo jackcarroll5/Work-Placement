@@ -1,0 +1,6 @@
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\dotnet.sync\bin\Debug\netstandard2.0\dotnet.sync.deps.json
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\dotnet.sync\bin\Debug\netstandard2.0\dotnet.sync.dll
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\dotnet.sync\obj\Debug\netstandard2.0\dotnet.sync.csprojAssemblyReference.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\dotnet.sync\obj\Debug\netstandard2.0\dotnet.sync.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\dotnet.sync\obj\Debug\netstandard2.0\dotnet.sync.AssemblyInfoInputs.cache
+C:\Users\Jack\Desktop\XamarinDotmim.SyncApp\dotnet.sync\obj\Debug\netstandard2.0\dotnet.sync.AssemblyInfo.cs
